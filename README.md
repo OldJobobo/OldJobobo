@@ -73,7 +73,7 @@ A comprehensive collection of themes for the Omarchy window manager, each with u
 |------------|-------------|-------|----------|
 | [ToDo-Console-App](https://github.com/OldJobobo/ToDo-Console-App) | C# Console App ToDo list manager | ![Stars](https://img.shields.io/github/stars/OldJobobo/ToDo-Console-App?style=flat-square) | C# |
 | [InstaTickWPF](https://github.com/OldJobobo/InstaTickWPF) | WPF application project | ![Stars](https://img.shields.io/github/stars/OldJobobo/InstaTickWPF?style=flat-square) | C# |
-| [Data-Persistance-Project](https://github.com/OldJobobo/Data-Persistance-Project) | Data persistence demo project | ![Stars](https://img.shields.io/github/stars/OldJobobo/Data-Persistance-Project?style=flat-square) | C# |
+| [Data-Persistence-Project](https://github.com/OldJobobo/Data-Persistance-Project) | Data persistence demo project | ![Stars](https://img.shields.io/github/stars/OldJobobo/Data-Persistance-Project?style=flat-square) | C# |
 
 ---
 
