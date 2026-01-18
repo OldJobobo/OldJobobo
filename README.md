@@ -20,8 +20,8 @@ I'm a passionate developer and creative tinkerer with a love for **Linux customi
 
 ## 🌟 Featured Projects
 
-### 🎨 Omarchy Theme Ecosystem
-A comprehensive collection of themes for the Omarchy window manager, each with unique aesthetics and carefully crafted color schemes.
+### 🎨 Omarchy Themes
+A comprehensive collection of themes for Omarchy, each with unique aesthetics and carefully crafted color schemes.
 
 | Repository | Description | Stars | Language |
 |------------|-------------|-------|----------|
@@ -95,9 +95,10 @@ A comprehensive collection of themes for the Omarchy window manager, each with u
 - 🎨 Need a custom theme for Omarchy? Feel free to fork and modify!
 - 🐛 Found a bug? Open an issue on any of my repositories
 - ⭐ If you like my work, consider starring the repositories you find useful!
+- 💲 If you enjoy what I do, consider supporting me on Ko-fi! Every little bit means the world! https://ko-fi.com/oldjobobo
 
 ---
 
 <div align="center">
-  <i>✨ Making the Linux desktop beautiful, one theme at a time ✨</i>
+  <i>✨ Making Omarchy beautiful and fun, one theme at a time ✨</i>
 </div>
