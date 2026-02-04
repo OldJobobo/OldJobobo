@@ -39,6 +39,8 @@ A comprehensive collection of themes for Omarchy, each with unique aesthetics an
 | [omarchy-hinterlands-theme](https://github.com/OldJobobo/omarchy-hinterlands-theme) | A Monochrome Dark Mode theme for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-hinterlands-theme?style=flat-square) | CSS |
 | [omarchy-monolith-theme](https://github.com/OldJobobo/omarchy-monolith-theme) | A compact focused distraction free theme for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-monolith-theme?style=flat-square) | CSS |
 | [omarchy-the-loop-theme](https://github.com/OldJobobo/omarchy-the-loop-theme) | Minimalist theme with looping aesthetics | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-the-loop-theme?style=flat-square) | CSS |
+| [omarchy-event-horizon-theme](https://github.com/OldJobobo/omarchy-event-horizon-theme) | An Event Horizon theme for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-event-horizon-theme?style=flat-square) | CSS |
+| [omarchy-phosphor-os-theme](https://github.com/OldJobobo/omarchy-phosphor-os-theme) | A Phosphor OS theme for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-phosphor-os-theme?style=flat-square) | CSS |
 
 ---
 
