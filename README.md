@@ -83,9 +83,9 @@ A comprehensive collection of themes for Omarchy, each with unique aesthetics an
 
 <div align="center">
   
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=OldJobobo&show_icons=true&theme=tokyonight)
+<img src="https://github-readme-stats.vercel.app/api?username=OldJobobo&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=OldJobobo&layout=compact&theme=tokyonight)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OldJobobo&layout=compact&theme=tokyonight" alt="Top Languages" />
 
 </div>
 
