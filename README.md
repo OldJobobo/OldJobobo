@@ -12,7 +12,7 @@
 I'm a passionate developer and creative tinkerer with a love for **Linux customization**, **theme design**, and **game development**. I specialize in creating beautiful, functional themes for Omarchy and building tools that enhance the Linux desktop experience. My work spans from sleek CSS themes to utility scripts that make life easier for fellow Linux enthusiasts.
 
 ### 🔧 Technologies & Tools
-- **Languages:** C#, Python, Shell, CSS
+- **Languages:** C#, Python, Rust, Shell, CSS
 - **Focus Areas:** Desktop Theming, Linux Utilities, Game Development, Interactive Fiction
 - **Current Projects:** Omarchy theme ecosystem, Waybar customization tools
 
