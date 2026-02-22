@@ -1,9 +1,13 @@
-# Hi there, I'm OldJobobo!
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:101820,35:1D3557,70:3A506B,100:5BC0BE&text=OldJobobo&fontColor=F4F7F5&fontSize=56&desc=Omarchy%20Themes%20%7C%20Linux%20Desktop%20Tooling&descAlignY=68" alt="OldJobobo profile banner" />
+</div>
 
 <div align="center">
 
-[![GitHub followers](https://img.shields.io/github/followers/OldJobobo?style=social)](https://github.com/OldJobobo)
-[![GitHub stars](https://img.shields.io/github/stars/OldJobobo?style=social)](https://github.com/OldJobobo)
+[![GitHub followers](https://img.shields.io/github/followers/OldJobobo?style=for-the-badge&label=Followers)](https://github.com/OldJobobo)
+[![GitHub stars](https://img.shields.io/github/stars/OldJobobo?style=for-the-badge&label=Profile%20Stars)](https://github.com/OldJobobo)
+[![Themes Catalog](https://img.shields.io/badge/Themes-Catalog-0E7490?style=for-the-badge)](THEMES.md)
+[![Support](https://img.shields.io/badge/Support-Ko--fi-2D3142?style=for-the-badge)](https://ko-fi.com/oldjobobo)
 
 </div>
 
@@ -18,11 +22,38 @@ I build Linux desktop themes and tooling, with most work focused on Omarchy and 
 
 ---
 
+## Featured Theme
+
+### omarchy-miasma-theme
+
+A Miasma Color Scheme Theme for Omarchy, officially adopted into the official Omarchy theme collection.
+
+[![omarchy-miasma-theme](https://opengraph.githubassets.com/1/OldJobobo/omarchy-miasma-theme)](https://github.com/OldJobobo/omarchy-miasma-theme)
+
+---
+
+## Theme Gallery
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/OldJobobo/omarchy-miasma-theme"><img src="https://opengraph.githubassets.com/1/OldJobobo/omarchy-miasma-theme" width="320" alt="omarchy-miasma-theme" /></a><br /><b>omarchy-miasma-theme</b></td>
+    <td align="center"><a href="https://github.com/OldJobobo/omarchy-deckard-theme"><img src="https://opengraph.githubassets.com/1/OldJobobo/omarchy-deckard-theme" width="320" alt="omarchy-deckard-theme" /></a><br /><b>omarchy-deckard-theme</b></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/OldJobobo/omarchy-city-783-theme"><img src="https://opengraph.githubassets.com/1/OldJobobo/omarchy-city-783-theme" width="320" alt="omarchy-city-783-theme" /></a><br /><b>omarchy-city-783-theme</b></td>
+    <td align="center"><a href="https://github.com/OldJobobo/omarchy-waffle-cat-theme"><img src="https://opengraph.githubassets.com/1/OldJobobo/omarchy-waffle-cat-theme" width="320" alt="omarchy-waffle-cat-theme" /></a><br /><b>omarchy-waffle-cat-theme</b></td>
+  </tr>
+</table>
+
+Full Omarchy theme catalog: [THEMES.md](THEMES.md)
+
+---
+
 ## Start Here
 
 If you are new to my work, these are the best places to start:
 
-- [omarchy-miasma-theme](https://github.com/OldJobobo/omarchy-miasma-theme): flagship Omarchy theme, officially adopted into the official Omarchy theme collection.
+- [omarchy-miasma-theme](https://github.com/OldJobobo/omarchy-miasma-theme): A Miasma Color Scheme Theme for Omarchy, officially adopted into the official Omarchy theme collection.
 - [My Omarchy Themes](THEMES.md): full Omarchy theme catalog.
 - [wayflipper](https://github.com/OldJobobo/wayflipper): switch Waybar themes quickly from a simple script workflow.
 - [theme-manager-plus](https://github.com/OldJobobo/theme-manager-plus): alternative Omarchy theme manager focused on fast theme operations.
@@ -33,17 +64,13 @@ If you are new to my work, these are the best places to start:
 
 ## Featured Projects
 
-### Flagship Projects
-
 | Repository | Status | Description | Language |
 |------------|--------|-------------|----------|
-| [omarchy-miasma-theme](https://github.com/OldJobobo/omarchy-miasma-theme) | Active | Flagship Omarchy theme, officially adopted into the official Omarchy theme collection. | CSS |
+| [omarchy-miasma-theme](https://github.com/OldJobobo/omarchy-miasma-theme) | Active | A Miasma Color Scheme Theme for Omarchy, officially adopted into the official Omarchy theme collection. | CSS |
 | [wayflipper](https://github.com/OldJobobo/wayflipper) | Active | Switches Waybar themes fast for users managing multiple visual setups. | Shell |
 | [theme-manager-plus](https://github.com/OldJobobo/theme-manager-plus) | Active | Alternative Omarchy theme manager for streamlined desktop theming workflows. | Shell |
 | [make-colors](https://github.com/OldJobobo/make-colors) | Active | Generates `colors.toml` files for existing Omarchy themes. | Shell |
 | [CSIFEngine](https://github.com/OldJobobo/CSIFEngine) | Maintained | Interactive fiction engine for building narrative projects in C#. | C# |
-
-Full Omarchy theme catalog: [THEMES.md](THEMES.md)
 
 <details>
 <summary>More Linux Desktop Tools</summary>
