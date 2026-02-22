@@ -70,39 +70,6 @@ A visual gallery of Omarchy themes published under `OldJobobo`.
 
 <br />
 
-### Biscuit de Mar Dark
-
-<p align="center">
-  <img alt="Featured" src="https://img.shields.io/badge/Featured%20Theme-Biscuit%20de%20Mar%20Dark-f97316?style=for-the-badge" />
-  <img alt="Status" src="https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge" />
-  <img alt="Style" src="https://img.shields.io/badge/Style-Warm%20Moody-ef4444?style=for-the-badge" />
-</p>
-
-<table width="100%">
-  <tr>
-    <td width="64%" valign="top">
-      <a href="https://github.com/OldJobobo/omarchy-biscuit-de-mar-dark-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-biscuit-de-mar-dark-theme/master/preview.png" alt="Biscuit de Mar Dark Theme Preview" width="100%" />
-      </a>
-    </td>
-    <td width="36%" valign="top">
-      <strong>Biscuit de Mar Dark blends cozy tones with deep contrast for long-session comfort.</strong>
-      <br /><br />
-      Official link: <a href="https://github.com/OldJobobo/omarchy-biscuit-de-mar-dark-theme"><code>omarchy-biscuit-de-mar-dark-theme</code></a>
-      <br />
-      Highlight: Soft warmth without sacrificing clarity and edge.
-      <br /><br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-biscuit-de-mar-dark-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-biscuit-de-mar-dark-theme?style=flat-square" />
-      <img alt="Repo Size" src="https://img.shields.io/github/repo-size/OldJobobo/omarchy-biscuit-de-mar-dark-theme?style=flat-square" />
-      <br /><br />
-      <a href="https://github.com/OldJobobo/omarchy-biscuit-de-mar-dark-theme"><img alt="View on GitHub" src="https://img.shields.io/badge/View%20on-GitHub-111827?style=for-the-badge&logo=github" /></a>
-    </td>
-  </tr>
-</table>
-
-<br />
-
 ### City 783
 
 <p align="center">
@@ -130,6 +97,39 @@ A visual gallery of Omarchy themes published under `OldJobobo`.
       <img alt="Repo Size" src="https://img.shields.io/github/repo-size/OldJobobo/omarchy-city-783-theme?style=flat-square" />
       <br /><br />
       <a href="https://github.com/OldJobobo/omarchy-city-783-theme"><img alt="View on GitHub" src="https://img.shields.io/badge/View%20on-GitHub-111827?style=for-the-badge&logo=github" /></a>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+### Biscuit de Mar Dark
+
+<p align="center">
+  <img alt="Featured" src="https://img.shields.io/badge/Featured%20Theme-Biscuit%20de%20Mar%20Dark-f97316?style=for-the-badge" />
+  <img alt="Status" src="https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge" />
+  <img alt="Style" src="https://img.shields.io/badge/Style-Warm%20Moody-ef4444?style=for-the-badge" />
+</p>
+
+<table width="100%">
+  <tr>
+    <td width="64%" valign="top">
+      <a href="https://github.com/OldJobobo/omarchy-biscuit-de-mar-dark-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-biscuit-de-mar-dark-theme/master/preview.png" alt="Biscuit de Mar Dark Theme Preview" width="100%" />
+      </a>
+    </td>
+    <td width="36%" valign="top">
+      <strong>Biscuit de Mar Dark blends cozy tones with deep contrast for long-session comfort.</strong>
+      <br /><br />
+      Official link: <a href="https://github.com/OldJobobo/omarchy-biscuit-de-mar-dark-theme"><code>omarchy-biscuit-de-mar-dark-theme</code></a>
+      <br />
+      Highlight: Soft warmth without sacrificing clarity and edge.
+      <br /><br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-biscuit-de-mar-dark-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-biscuit-de-mar-dark-theme?style=flat-square" />
+      <img alt="Repo Size" src="https://img.shields.io/github/repo-size/OldJobobo/omarchy-biscuit-de-mar-dark-theme?style=flat-square" />
+      <br /><br />
+      <a href="https://github.com/OldJobobo/omarchy-biscuit-de-mar-dark-theme"><img alt="View on GitHub" src="https://img.shields.io/badge/View%20on-GitHub-111827?style=for-the-badge&logo=github" /></a>
     </td>
   </tr>
 </table>
