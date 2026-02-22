@@ -36,12 +36,12 @@ A Miasma Color Scheme Theme for Omarchy, officially adopted into the official Om
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/OldJobobo/omarchy-miasma-theme"><img src="https://opengraph.githubassets.com/1/OldJobobo/omarchy-miasma-theme" width="320" alt="omarchy-miasma-theme" /></a><br /><b>omarchy-miasma-theme</b></td>
-    <td align="center"><a href="https://github.com/OldJobobo/omarchy-deckard-theme"><img src="https://opengraph.githubassets.com/1/OldJobobo/omarchy-deckard-theme" width="320" alt="omarchy-deckard-theme" /></a><br /><b>omarchy-deckard-theme</b></td>
+    <td align="center"><a href="https://github.com/OldJobobo/omarchy-miasma-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-miasma-theme/main/preview.png" width="320" alt="omarchy-miasma-theme" /></a><br /><b>omarchy-miasma-theme</b></td>
+    <td align="center"><a href="https://github.com/OldJobobo/omarchy-deckard-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-deckard-theme/main/preview.png" width="320" alt="omarchy-deckard-theme" /></a><br /><b>omarchy-deckard-theme</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/OldJobobo/omarchy-city-783-theme"><img src="https://opengraph.githubassets.com/1/OldJobobo/omarchy-city-783-theme" width="320" alt="omarchy-city-783-theme" /></a><br /><b>omarchy-city-783-theme</b></td>
-    <td align="center"><a href="https://github.com/OldJobobo/omarchy-waffle-cat-theme"><img src="https://opengraph.githubassets.com/1/OldJobobo/omarchy-waffle-cat-theme" width="320" alt="omarchy-waffle-cat-theme" /></a><br /><b>omarchy-waffle-cat-theme</b></td>
+    <td align="center"><a href="https://github.com/OldJobobo/omarchy-city-783-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-city-783-theme/main/preview.png" width="320" alt="omarchy-city-783-theme" /></a><br /><b>omarchy-city-783-theme</b></td>
+    <td align="center"><a href="https://github.com/OldJobobo/omarchy-waffle-cat-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-waffle-cat-theme/main/preview.png" width="320" alt="omarchy-waffle-cat-theme" /></a><br /><b>omarchy-waffle-cat-theme</b></td>
   </tr>
 </table>
 
