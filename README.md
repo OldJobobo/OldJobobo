@@ -39,8 +39,6 @@ A Miasma color scheme for Omarchy (now an official Omarchy theme in v3.4.0).
         <a href="./THEMES.md">
           <img src="https://img.shields.io/badge/Open-Full%20Theme%20Gallery-0E7490?style=for-the-badge&logo=github" alt="Open Full Theme Gallery" />
         </a>
-        <a href="./THEMES.md">
-          <img src="https://img.shields.io/badge/File-THEMES.md-1F2937?style=flat-square" alt="THEMES.md" />
         </a>
       </td>
     </tr>
