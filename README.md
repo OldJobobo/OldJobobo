@@ -34,18 +34,25 @@ A Miasma color scheme for Omarchy (now an official Omarchy theme in v3.4.0).
 
 ## Theme Gallery
 
-<table>
+<div align="center">
+  <a href="./THEMES.md">
+    <img src="https://img.shields.io/badge/Omarchy%20Theme%20Gallery-Open%20THEMES.md-0E7490?style=for-the-badge&logo=github" alt="Open Omarchy Theme Gallery" />
+  </a>
+</div>
+
+<table width="100%">
   <tr>
-    <td align="center"><a href="https://github.com/OldJobobo/omarchy-florida-man-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-florida-man-theme/master/preview.png" width="320" alt="Florida Man" /></a><br /><b>Florida Man</b></td>
-    <td align="center"><a href="https://github.com/OldJobobo/omarchy-deckard-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-deckard-theme/master/preview.png" width="320" alt="Deckard" /></a><br /><b>Deckard</b></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/OldJobobo/omarchy-city-783-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-city-783-theme/master/preview.png" width="320" alt="City 783" /></a><br /><b>City 783</b></td>
-    <td align="center"><a href="https://github.com/OldJobobo/omarchy-waffle-cat-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-waffle-cat-theme/master/preview.png" width="320" alt="Waffle Cat" /></a><br /><b>Waffle Cat</b></td>
+    <td align="center">
+      <a href="./THEMES.md">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-miasma-theme/master/preview.png" alt="Theme gallery preview" width="100%" />
+      </a>
+      <br />
+      <strong>Browse the full visual catalog in <a href="./THEMES.md"><code>THEMES.md</code></a>.</strong>
+      <br />
+      This README keeps things lightweight; the complete theme showcase lives in the dedicated gallery page.
+    </td>
   </tr>
 </table>
-
-Full Omarchy theme catalog: [THEMES.md](THEMES.md)
 
 ---
 
