@@ -6,15 +6,34 @@ A visual gallery of Omarchy themes published under `OldJobobo`.
 
 ### Miasma
 
-Official link: [omarchy-miasma-theme](https://github.com/OldJobobo/omarchy-miasma-theme)  
-Status: Active  
-Highlight: Officially adopted into the official Omarchy theme collection.
+<p align="center">
+  <img alt="Featured" src="https://img.shields.io/badge/Featured%20Theme-Miasma-f97316?style=for-the-badge" />
+  <img alt="Status" src="https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge" />
+  <img alt="Official Collection" src="https://img.shields.io/badge/Omarchy-Official%20Collection-0ea5e9?style=for-the-badge" />
+</p>
 
-<div align="center">
-  <a href="https://github.com/OldJobobo/omarchy-miasma-theme">
-    <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-miasma-theme/master/preview.png" alt="Miasma" width="900" />
-  </a>
-</div>
+<table width="100%">
+  <tr>
+    <td width="64%" valign="top">
+      <a href="https://github.com/OldJobobo/omarchy-miasma-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-miasma-theme/master/preview.png" alt="Miasma Theme Preview" width="100%" />
+      </a>
+    </td>
+    <td width="36%" valign="top">
+      <strong>Miasma is a dark, high-contrast cinematic desktop theme built for Omarchy.</strong>
+      <br /><br />
+      Official link: <a href="https://github.com/OldJobobo/omarchy-miasma-theme"><code>omarchy-miasma-theme</code></a>
+      <br />
+      Highlight: Officially adopted into the official Omarchy theme collection.
+      <br /><br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-miasma-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-miasma-theme?style=flat-square" />
+      <img alt="Repo Size" src="https://img.shields.io/github/repo-size/OldJobobo/omarchy-miasma-theme?style=flat-square" />
+      <br /><br />
+      <a href="https://github.com/OldJobobo/omarchy-miasma-theme"><img alt="Open Repo" src="https://img.shields.io/badge/Open-Repository-111827?style=for-the-badge&logo=github" /></a>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -209,4 +228,3 @@ Highlight: Officially adopted into the official Omarchy theme collection.
     <td width="33%" valign="top" align="center">&nbsp;</td>
   </tr>
 </table>
-
