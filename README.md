@@ -24,11 +24,11 @@ I build Linux desktop themes and tooling, with most work focused on Omarchy and 
 
 ## Featured Theme
 
-### omarchy-miasma-theme
+### Miasma
 
-A Miasma Color Scheme Theme for Omarchy, officially adopted into the official Omarchy theme collection.
+A Miasma color scheme for Omarchy (now an official Omarchy theme in v3.4.0).
 
-[![omarchy-miasma-theme](https://raw.githubusercontent.com/OldJobobo/omarchy-miasma-theme/master/preview.png)](https://github.com/OldJobobo/omarchy-miasma-theme)
+[![Miasma](https://raw.githubusercontent.com/OldJobobo/omarchy-miasma-theme/master/preview.png)](https://github.com/OldJobobo/omarchy-miasma-theme)
 
 ---
 
@@ -36,12 +36,12 @@ A Miasma Color Scheme Theme for Omarchy, officially adopted into the official Om
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/OldJobobo/omarchy-florida-man-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-florida-man-theme/master/preview.png" width="320" alt="omarchy-florida-man-theme" /></a><br /><b>omarchy-florida-man-theme</b></td>
-    <td align="center"><a href="https://github.com/OldJobobo/omarchy-deckard-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-deckard-theme/master/preview.png" width="320" alt="omarchy-deckard-theme" /></a><br /><b>omarchy-deckard-theme</b></td>
+    <td align="center"><a href="https://github.com/OldJobobo/omarchy-florida-man-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-florida-man-theme/master/preview.png" width="320" alt="Florida Man" /></a><br /><b>Florida Man</b></td>
+    <td align="center"><a href="https://github.com/OldJobobo/omarchy-deckard-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-deckard-theme/master/preview.png" width="320" alt="Deckard" /></a><br /><b>Deckard</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/OldJobobo/omarchy-city-783-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-city-783-theme/master/preview.png" width="320" alt="omarchy-city-783-theme" /></a><br /><b>omarchy-city-783-theme</b></td>
-    <td align="center"><a href="https://github.com/OldJobobo/omarchy-waffle-cat-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-waffle-cat-theme/master/preview.png" width="320" alt="omarchy-waffle-cat-theme" /></a><br /><b>omarchy-waffle-cat-theme</b></td>
+    <td align="center"><a href="https://github.com/OldJobobo/omarchy-city-783-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-city-783-theme/master/preview.png" width="320" alt="City 783" /></a><br /><b>City 783</b></td>
+    <td align="center"><a href="https://github.com/OldJobobo/omarchy-waffle-cat-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-waffle-cat-theme/master/preview.png" width="320" alt="Waffle Cat" /></a><br /><b>Waffle Cat</b></td>
   </tr>
 </table>
 
@@ -53,7 +53,7 @@ Full Omarchy theme catalog: [THEMES.md](THEMES.md)
 
 If you are new to my work, these are the best places to start:
 
-- [omarchy-miasma-theme](https://github.com/OldJobobo/omarchy-miasma-theme): A Miasma Color Scheme Theme for Omarchy, officially adopted into the official Omarchy theme collection.
+- [Miasma](https://github.com/OldJobobo/omarchy-miasma-theme): A Miasma color scheme for Omarchy, officially adopted into the official Omarchy theme collection.
 - [My Omarchy Themes](THEMES.md): full Omarchy theme catalog.
 - [wayflipper](https://github.com/OldJobobo/wayflipper): switch Waybar themes quickly from a simple script workflow.
 - [theme-manager-plus](https://github.com/OldJobobo/theme-manager-plus): alternative Omarchy theme manager focused on fast theme operations.
@@ -66,7 +66,7 @@ If you are new to my work, these are the best places to start:
 
 | Repository | Status | Description | Language |
 |------------|--------|-------------|----------|
-| [omarchy-miasma-theme](https://github.com/OldJobobo/omarchy-miasma-theme) | Active | A Miasma Color Scheme Theme for Omarchy, officially adopted into the official Omarchy theme collection. | CSS |
+| [Miasma](https://github.com/OldJobobo/omarchy-miasma-theme) | Active | A Miasma color scheme for Omarchy, officially adopted into the official Omarchy theme collection. | CSS |
 | [wayflipper](https://github.com/OldJobobo/wayflipper) | Active | Switches Waybar themes fast for users managing multiple visual setups. | Shell |
 | [theme-manager-plus](https://github.com/OldJobobo/theme-manager-plus) | Active | Alternative Omarchy theme manager for streamlined desktop theming workflows. | Shell |
 | [make-colors](https://github.com/OldJobobo/make-colors) | Active | Generates `colors.toml` files for existing Omarchy themes. | Shell |
