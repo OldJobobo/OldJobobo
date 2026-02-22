@@ -2,7 +2,7 @@
 
 A visual gallery of Omarchy themes published under `OldJobobo`.
 
-## Featured Theme
+## Featured Themes
 
 ### Miasma
 
@@ -30,7 +30,106 @@ A visual gallery of Omarchy themes published under `OldJobobo`.
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-miasma-theme?style=flat-square" />
       <img alt="Repo Size" src="https://img.shields.io/github/repo-size/OldJobobo/omarchy-miasma-theme?style=flat-square" />
       <br /><br />
-      <a href="https://github.com/OldJobobo/omarchy-miasma-theme"><img alt="Open Repo" src="https://img.shields.io/badge/Open-Repository-111827?style=for-the-badge&logo=github" /></a>
+      <a href="https://github.com/OldJobobo/omarchy-miasma-theme"><img alt="View on GitHub" src="https://img.shields.io/badge/View%20on-GitHub-111827?style=for-the-badge&logo=github" /></a>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+### Florida Man
+
+<p align="center">
+  <img alt="Featured" src="https://img.shields.io/badge/Featured%20Theme-Florida%20Man-f97316?style=for-the-badge" />
+  <img alt="Status" src="https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge" />
+  <img alt="Style" src="https://img.shields.io/badge/Style-Bold%20Retro-eab308?style=for-the-badge" />
+</p>
+
+<table width="100%">
+  <tr>
+    <td width="64%" valign="top">
+      <a href="https://github.com/OldJobobo/omarchy-florida-man-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-florida-man-theme/master/preview.png" alt="Florida Man Theme Preview" width="100%" />
+      </a>
+    </td>
+    <td width="36%" valign="top">
+      <strong>Florida Man leans into loud color, high energy contrast, and punchy personality.</strong>
+      <br /><br />
+      Official link: <a href="https://github.com/OldJobobo/omarchy-florida-man-theme"><code>omarchy-florida-man-theme</code></a>
+      <br />
+      Highlight: A maximal palette pick for standout desktop setups.
+      <br /><br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-florida-man-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-florida-man-theme?style=flat-square" />
+      <img alt="Repo Size" src="https://img.shields.io/github/repo-size/OldJobobo/omarchy-florida-man-theme?style=flat-square" />
+      <br /><br />
+      <a href="https://github.com/OldJobobo/omarchy-florida-man-theme"><img alt="View on GitHub" src="https://img.shields.io/badge/View%20on-GitHub-111827?style=for-the-badge&logo=github" /></a>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+### Biscuit de Mar Dark
+
+<p align="center">
+  <img alt="Featured" src="https://img.shields.io/badge/Featured%20Theme-Biscuit%20de%20Mar%20Dark-f97316?style=for-the-badge" />
+  <img alt="Status" src="https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge" />
+  <img alt="Style" src="https://img.shields.io/badge/Style-Warm%20Moody-ef4444?style=for-the-badge" />
+</p>
+
+<table width="100%">
+  <tr>
+    <td width="64%" valign="top">
+      <a href="https://github.com/OldJobobo/omarchy-biscuit-de-mar-dark-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-biscuit-de-mar-dark-theme/master/preview.png" alt="Biscuit de Mar Dark Theme Preview" width="100%" />
+      </a>
+    </td>
+    <td width="36%" valign="top">
+      <strong>Biscuit de Mar Dark blends cozy tones with deep contrast for long-session comfort.</strong>
+      <br /><br />
+      Official link: <a href="https://github.com/OldJobobo/omarchy-biscuit-de-mar-dark-theme"><code>omarchy-biscuit-de-mar-dark-theme</code></a>
+      <br />
+      Highlight: Soft warmth without sacrificing clarity and edge.
+      <br /><br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-biscuit-de-mar-dark-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-biscuit-de-mar-dark-theme?style=flat-square" />
+      <img alt="Repo Size" src="https://img.shields.io/github/repo-size/OldJobobo/omarchy-biscuit-de-mar-dark-theme?style=flat-square" />
+      <br /><br />
+      <a href="https://github.com/OldJobobo/omarchy-biscuit-de-mar-dark-theme"><img alt="View on GitHub" src="https://img.shields.io/badge/View%20on-GitHub-111827?style=for-the-badge&logo=github" /></a>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+### City 783
+
+<p align="center">
+  <img alt="Featured" src="https://img.shields.io/badge/Featured%20Theme-City%20783-f97316?style=for-the-badge" />
+  <img alt="Status" src="https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge" />
+  <img alt="Style" src="https://img.shields.io/badge/Style-Neon%20Urban-06b6d4?style=for-the-badge" />
+</p>
+
+<table width="100%">
+  <tr>
+    <td width="64%" valign="top">
+      <a href="https://github.com/OldJobobo/omarchy-city-783-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-city-783-theme/master/preview.png" alt="City 783 Theme Preview" width="100%" />
+      </a>
+    </td>
+    <td width="36%" valign="top">
+      <strong>City 783 channels a neon city atmosphere with crisp accents and night-drive depth.</strong>
+      <br /><br />
+      Official link: <a href="https://github.com/OldJobobo/omarchy-city-783-theme"><code>omarchy-city-783-theme</code></a>
+      <br />
+      Highlight: Cyber-urban mood with clean readability across desktop modules.
+      <br /><br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-city-783-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-city-783-theme?style=flat-square" />
+      <img alt="Repo Size" src="https://img.shields.io/github/repo-size/OldJobobo/omarchy-city-783-theme?style=flat-square" />
+      <br /><br />
+      <a href="https://github.com/OldJobobo/omarchy-city-783-theme"><img alt="View on GitHub" src="https://img.shields.io/badge/View%20on-GitHub-111827?style=for-the-badge&logo=github" /></a>
     </td>
   </tr>
 </table>
