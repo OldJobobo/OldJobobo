@@ -1,7 +1,7 @@
 # Hi there, I'm OldJobobo!
 
 <div align="center">
-  
+
 [![GitHub followers](https://img.shields.io/github/followers/OldJobobo?style=social)](https://github.com/OldJobobo)
 [![GitHub stars](https://img.shields.io/github/stars/OldJobobo?style=social)](https://github.com/OldJobobo)
 
@@ -9,98 +9,98 @@
 
 ## About Me
 
-I'm a passionate developer and creative tinkerer with a love for **Linux customization**, **theme design**, and **game development**. I specialize in creating beautiful, functional themes for Omarchy and building tools that enhance the Linux desktop experience. My work spans from sleek CSS themes to utility scripts that make life easier for fellow Linux enthusiasts.
+I build Linux desktop themes and tooling, with most work focused on Omarchy and Waybar workflows.
 
-### Technologies & Tools
-- **Languages:** C#, Python, Rust, Shell, CSS
-- **Focus Areas:** Desktop Theming, Linux Utilities, Game Development, Interactive Fiction
-- **Current Projects:** Omarchy theme ecosystem, Waybar customization tools
+### Core Stack
+- Languages: C#, Python, Rust, Shell, CSS
+- Primary focus: Omarchy theming, Waybar tooling, Linux desktop automation
+- Secondary focus: game dev and interactive fiction
+
+---
+
+## Start Here
+
+If you are new to my work, these are the best places to start:
+
+- [omarchy-miasma-theme](https://github.com/OldJobobo/omarchy-miasma-theme): flagship Omarchy theme, officially adopted into the official Omarchy theme collection.
+- [My Omarchy Themes](THEMES.md): full Omarchy theme catalog.
+- [wayflipper](https://github.com/OldJobobo/wayflipper): switch Waybar themes quickly from a simple script workflow.
+- [theme-manager-plus](https://github.com/OldJobobo/theme-manager-plus): alternative Omarchy theme manager focused on fast theme operations.
+- [waffle-cat](https://github.com/OldJobobo/waffle-cat): warm-forward color scheme for desktop theming.
+- [CSIFEngine](https://github.com/OldJobobo/CSIFEngine): C# interactive fiction engine.
 
 ---
 
 ## Featured Projects
 
-### 🎨 Omarchy Themes
-A comprehensive collection of themes for Omarchy, each with unique aesthetics and carefully crafted color schemes.
+### Flagship Projects
 
-| Repository | Description | Stars | Language |
-|------------|-------------|-------|----------|
-| [omarchy-miasma-theme](https://github.com/OldJobobo/omarchy-miasma-theme) | A Miasma Color Scheme Theme for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-miasma-theme?style=flat-square) | CSS |
-| [omarchy-florida-man-theme](https://github.com/OldJobobo/omarchy-florida-man-theme) | A GTA VI theme for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-florida-man-theme?style=flat-square) | CSS |
-| [omarchy-deckard-theme](https://github.com/OldJobobo/omarchy-deckard-theme) | Blade Runner inspired theme | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-deckard-theme?style=flat-square) | CSS |
-| [omarchy-x-1632-theme](https://github.com/OldJobobo/omarchy-x-1632-theme) | X-1632 Mecha Theme for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-x-1632-theme?style=flat-square) | CSS |
-| [omarchy-city-783-theme](https://github.com/OldJobobo/omarchy-city-783-theme) | A Dark Cyber-Dystopia Sci-Fi Theme for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-city-783-theme?style=flat-square) | CSS |
-| [omarchy-batman-theme](https://github.com/OldJobobo/omarchy-batman-theme) | A Batman theme for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-batman-theme?style=flat-square) | CSS |
-| [omarchy-caroline-skyline-theme](https://github.com/OldJobobo/omarchy-caroline-skyline-theme) | A Caroline Base16 based theme for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-caroline-skyline-theme?style=flat-square) | CSS |
-| [omarchy-event-horizon-theme](https://github.com/OldJobobo/omarchy-event-horizon-theme) | An Event Horizon theme for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-event-horizon-theme?style=flat-square) | CSS |
-| [omarchy-flat-dracula-theme](https://github.com/OldJobobo/omarchy-flat-dracula-theme) | A Flat Dracula Theme for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-flat-dracula-theme?style=flat-square) | CSS |
-| [omarchy-hex-theme](https://github.com/OldJobobo/omarchy-hex-theme) | A Hexagonal Theme for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-hex-theme?style=flat-square) | CSS |
-| [omarchy-hinterlands-theme](https://github.com/OldJobobo/omarchy-hinterlands-theme) | A Monochrome Dark Mode theme for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-hinterlands-theme?style=flat-square) | CSS |
-| [omarchy-monolith-theme](https://github.com/OldJobobo/omarchy-monolith-theme) | A compact focused distraction free theme for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-monolith-theme?style=flat-square) | CSS |
-| [omarchy-phosphor-os-theme](https://github.com/OldJobobo/omarchy-phosphor-os-theme) | A Phosphor OS theme for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-phosphor-os-theme?style=flat-square) | CSS |
-| [omarchy-grimdark-solarized-theme](https://github.com/OldJobobo/omarchy-grimdark-solarized-theme) | A Warhammer 40k Theme for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-grimdark-solarized-theme?style=flat-square) | CSS |
-| [omarchy-the-loop-theme](https://github.com/OldJobobo/omarchy-the-loop-theme) | Minimalist theme with looping aesthetics | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-the-loop-theme?style=flat-square) | CSS |
-| [omarchy-waffle-cat-theme](https://github.com/OldJobobo/omarchy-waffle-cat-theme) | The Official Waffle-Cat Colorscheme Theme for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-waffle-cat-theme?style=flat-square) | CSS |
+| Repository | Status | Description | Language |
+|------------|--------|-------------|----------|
+| [omarchy-miasma-theme](https://github.com/OldJobobo/omarchy-miasma-theme) | Active | Flagship Omarchy theme, officially adopted into the official Omarchy theme collection. | CSS |
+| [wayflipper](https://github.com/OldJobobo/wayflipper) | Active | Switches Waybar themes fast for users managing multiple visual setups. | Shell |
+| [theme-manager-plus](https://github.com/OldJobobo/theme-manager-plus) | Active | Alternative Omarchy theme manager for streamlined desktop theming workflows. | Shell |
+| [make-colors](https://github.com/OldJobobo/make-colors) | Active | Generates `colors.toml` files for existing Omarchy themes. | Shell |
+| [CSIFEngine](https://github.com/OldJobobo/CSIFEngine) | Maintained | Interactive fiction engine for building narrative projects in C#. | C# |
 
----
+Full Omarchy theme catalog: [THEMES.md](THEMES.md)
 
-### 🛠️ Linux Desktop Tools & Utilities
+<details>
+<summary>More Linux Desktop Tools</summary>
 
-| Repository | Description | Stars | Language |
-|------------|-------------|-------|----------|
-| [wayflipper](https://github.com/OldJobobo/wayflipper) | A Waybar Theme Switcher | ![Stars](https://img.shields.io/github/stars/OldJobobo/wayflipper?style=flat-square) | Shell |
-| [theme-manager-plus](https://github.com/OldJobobo/theme-manager-plus) | Alternative Theme Manager for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/theme-manager-plus?style=flat-square) | Shell |
-| [omarchy-theme-hook-waybar](https://github.com/OldJobobo/omarchy-theme-hook-waybar) | A theme-set hook to load theme waybars for Omarchy | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-theme-hook-waybar?style=flat-square) | Shell |
-| [hyprscripts](https://github.com/OldJobobo/hyprscripts) | Keybind script helpers for window gaps | ![Stars](https://img.shields.io/github/stars/OldJobobo/hyprscripts?style=flat-square) | Shell |
-| [make-colors](https://github.com/OldJobobo/make-colors) | A script to create the new colors.toml for existing Omarchy themes | ![Stars](https://img.shields.io/github/stars/OldJobobo/make-colors?style=flat-square) | Shell |
-| [waffle-cat](https://github.com/OldJobobo/waffle-cat) | A Warm Forward Color Scheme | ![Stars](https://img.shields.io/github/stars/OldJobobo/waffle-cat?style=flat-square) | Shell |
-| [theme-color-tool](https://github.com/OldJobobo/theme-color-tool) | A Base16 colorscheme applicator for Omarchy themes | ![Stars](https://img.shields.io/github/stars/OldJobobo/theme-color-tool?style=flat-square) | Python |
+| Repository | Description | Language |
+|------------|-------------|----------|
+| [omarchy-theme-hook-waybar](https://github.com/OldJobobo/omarchy-theme-hook-waybar) | Theme-set hook to load theme-specific Waybar configurations. | Shell |
+| [hyprscripts](https://github.com/OldJobobo/hyprscripts) | Keybind helper scripts for gap and window behavior workflows. | Shell |
+| [waffle-cat](https://github.com/OldJobobo/waffle-cat) | Warm-forward color scheme repository. | Shell |
+
+</details>
 
 ---
 
-### 🎮 Game Development & Interactive Fiction
+## Compatibility
 
-| Repository | Description | Stars | Language |
-|------------|-------------|-------|----------|
-| [CSIFEngine](https://github.com/OldJobobo/CSIFEngine) | C# Interactive Fiction Engine | ![Stars](https://img.shields.io/github/stars/OldJobobo/CSIFEngine?style=flat-square) | C# |
-| [PyLantir](https://github.com/OldJobobo/PyLantir) | An Open-Source Client for Atlantis PBEM | ![Stars](https://img.shields.io/github/stars/OldJobobo/PyLantir?style=flat-square) | Python |
-| [RogueWolf](https://github.com/OldJobobo/RogueWolf) | Roguelike game project | ![Stars](https://img.shields.io/github/stars/OldJobobo/RogueWolf?style=flat-square) | C# |
-| [New-Tilemap-Test](https://github.com/OldJobobo/New-Tilemap-Test) | Unity tilemap experimentation | ![Stars](https://img.shields.io/github/stars/OldJobobo/New-Tilemap-Test?style=flat-square) | C# |
+Most desktop theming and utility projects are built around this environment:
 
----
+- Linux desktop workflows (Omarchy-centric)
+- Waybar/Hyprland style setups
+- Shell-driven configuration patterns
 
-### 💼 Applications & Other Projects
-
-| Repository | Description | Stars | Language |
-|------------|-------------|-------|----------|
-| [ToDo-Console-App](https://github.com/OldJobobo/ToDo-Console-App) | C# Console App ToDo list manager | ![Stars](https://img.shields.io/github/stars/OldJobobo/ToDo-Console-App?style=flat-square) | C# |
-| [InstaTickWPF](https://github.com/OldJobobo/InstaTickWPF) | WPF application project | ![Stars](https://img.shields.io/github/stars/OldJobobo/InstaTickWPF?style=flat-square) | C# |
-| [Data-Persistence-Project](https://github.com/OldJobobo/Data-Persistance-Project) | Data persistence demo project | ![Stars](https://img.shields.io/github/stars/OldJobobo/Data-Persistance-Project?style=flat-square) | C# |
+If your setup differs, open an issue with your environment details and I can help confirm compatibility.
 
 ---
 
-## 📊 GitHub Stats
+## Issue and Contribution Guide
+
+Use the target repository's Issues page and include:
+
+- Environment details (distro, shell, compositor/window manager, tool versions)
+- Exact steps to reproduce
+- Expected result and actual result
+- Relevant logs/screenshots when applicable
+
+For feature requests, describe the user problem first, then the proposed behavior.
+
+---
+
+## GitHub Activity
 
 <div align="center">
-  
-<img src="https://github-readme-stats.vercel.app/api?username=OldJobobo&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OldJobobo&layout=compact&theme=tokyonight" alt="Top Languages" />
-
+  <a href="https://github.com/OldJobobo?tab=repositories">View Repositories</a> |
+  <a href="https://github.com/OldJobobo?tab=stars">View Starred Projects</a> |
+  <a href="https://github.com/OldJobobo">View Full Profile</a>
 </div>
 
 ---
 
-## 🤝 Let's Connect!
+## Contact and Support
 
-- 💬 Interested in Linux customization? Check out my themes!
-- 🎨 Need a custom theme for Omarchy? Feel free to fork and modify!
-- 🐛 Found a bug? Open an issue on any of my repositories
-- ⭐ If you like my work, consider starring the repositories you find useful!
-- 💲 If you enjoy what I do, consider supporting me on Ko-fi! Every little bit means the world! https://ko-fi.com/oldjobobo
+- For project questions and bugs: open an issue in the relevant repository.
+- For updates and code browsing: follow [github.com/OldJobobo](https://github.com/OldJobobo).
+- If my work is useful to you, support it on [Ko-fi](https://ko-fi.com/oldjobobo).
 
 ---
 
 <div align="center">
-  <i>Making Omarchy beautiful and fun, one theme at a time</i>
+  <i>Making Omarchy beautiful and fun, one theme at a time.</i>
 </div>
