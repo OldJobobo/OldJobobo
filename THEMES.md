@@ -78,9 +78,6 @@ Highlight: Officially adopted into the official Omarchy theme collection.
       <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-deckard-theme?style=flat-square" />
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-deckard-theme?style=flat-square" />
     </td>
-    <td width="33%" valign="top" align="center">&nbsp;</td>
-  </tr>
-  <tr>
     <td width="33%" valign="top" align="center">
       <a href="https://github.com/OldJobobo/omarchy-x-1632-theme">
         <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-x-1632-theme/master/preview.png" alt="X-1632 Theme Preview" width="100%" />
@@ -91,6 +88,8 @@ Highlight: Officially adopted into the official Omarchy theme collection.
       <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-x-1632-theme?style=flat-square" />
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-x-1632-theme?style=flat-square" />
     </td>
+  </tr>
+  <tr>
     <td width="33%" valign="top" align="center">
       <a href="https://github.com/OldJobobo/omarchy-city-783-theme">
         <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-city-783-theme/master/preview.png" alt="City 783 Theme Preview" width="100%" />
@@ -111,8 +110,6 @@ Highlight: Officially adopted into the official Omarchy theme collection.
       <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-batman-theme?style=flat-square" />
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-batman-theme?style=flat-square" />
     </td>
-  </tr>
-  <tr>
     <td width="33%" valign="top" align="center">
       <a href="https://github.com/OldJobobo/omarchy-caroline-skyline-theme">
         <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-caroline-skyline-theme/master/preview.png" alt="Caroline Skyline Theme Preview" width="100%" />
@@ -123,6 +120,8 @@ Highlight: Officially adopted into the official Omarchy theme collection.
       <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-caroline-skyline-theme?style=flat-square" />
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-caroline-skyline-theme?style=flat-square" />
     </td>
+  </tr>
+  <tr>
     <td width="33%" valign="top" align="center">
       <a href="https://github.com/OldJobobo/omarchy-event-horizon-theme">
         <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-event-horizon-theme/master/preview.png" alt="Event Horizon Theme Preview" width="100%" />
@@ -143,8 +142,6 @@ Highlight: Officially adopted into the official Omarchy theme collection.
       <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-flat-dracula-theme?style=flat-square" />
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-flat-dracula-theme?style=flat-square" />
     </td>
-  </tr>
-  <tr>
     <td width="33%" valign="top" align="center">
       <a href="https://github.com/OldJobobo/omarchy-hex-theme">
         <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-hex-theme/master/preview.png" alt="Hex Theme Preview" width="100%" />
@@ -155,6 +152,8 @@ Highlight: Officially adopted into the official Omarchy theme collection.
       <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-hex-theme?style=flat-square" />
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-hex-theme?style=flat-square" />
     </td>
+  </tr>
+  <tr>
     <td width="33%" valign="top" align="center">
       <a href="https://github.com/OldJobobo/omarchy-hinterlands-theme">
         <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-hinterlands-theme/master/preview.png" alt="Hinterlands Theme Preview" width="100%" />
@@ -175,8 +174,6 @@ Highlight: Officially adopted into the official Omarchy theme collection.
       <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-monolith-theme?style=flat-square" />
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-monolith-theme?style=flat-square" />
     </td>
-  </tr>
-  <tr>
     <td width="33%" valign="top" align="center">
       <a href="https://github.com/OldJobobo/omarchy-phosphor-os-theme">
         <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-phosphor-os-theme/master/preview.png" alt="Phosphor OS Theme Preview" width="100%" />
@@ -187,6 +184,8 @@ Highlight: Officially adopted into the official Omarchy theme collection.
       <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-phosphor-os-theme?style=flat-square" />
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-phosphor-os-theme?style=flat-square" />
     </td>
+  </tr>
+  <tr>
     <td width="33%" valign="top" align="center">
       <a href="https://github.com/OldJobobo/omarchy-grimdark-solarized-theme">
         <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-grimdark-solarized-theme/master/preview.png" alt="Grimdark Solarized Theme Preview" width="100%" />
@@ -207,5 +206,7 @@ Highlight: Officially adopted into the official Omarchy theme collection.
       <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-waffle-cat-theme?style=flat-square" />
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-waffle-cat-theme?style=flat-square" />
     </td>
+    <td width="33%" valign="top" align="center">&nbsp;</td>
   </tr>
 </table>
+
