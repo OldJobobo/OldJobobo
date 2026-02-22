@@ -30,8 +30,6 @@ A Miasma color scheme for Omarchy (now an official Omarchy theme in v3.4.0).
 
 [![Miasma](https://raw.githubusercontent.com/OldJobobo/omarchy-miasma-theme/master/preview.png)](https://github.com/OldJobobo/omarchy-miasma-theme)
 
----
-
 <div align="center">
   <a href="./THEMES.md">
     <img src="https://img.shields.io/badge/Open-Full%20Theme%20Gallery-0E7490?style=for-the-badge&logo=github" alt="Open Full Theme Gallery" />
