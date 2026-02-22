@@ -28,7 +28,7 @@ I build Linux desktop themes and tooling, with most work focused on Omarchy and 
 
 A Miasma Color Scheme Theme for Omarchy, officially adopted into the official Omarchy theme collection.
 
-[![omarchy-miasma-theme](https://opengraph.githubassets.com/1/OldJobobo/omarchy-miasma-theme)](https://github.com/OldJobobo/omarchy-miasma-theme)
+[![omarchy-miasma-theme](https://raw.githubusercontent.com/OldJobobo/omarchy-miasma-theme/master/preview.png)](https://github.com/OldJobobo/omarchy-miasma-theme)
 
 ---
 
@@ -36,7 +36,7 @@ A Miasma Color Scheme Theme for Omarchy, officially adopted into the official Om
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/OldJobobo/omarchy-miasma-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-miasma-theme/master/preview.png" width="320" alt="omarchy-miasma-theme" /></a><br /><b>omarchy-miasma-theme</b></td>
+    <td align="center"><a href="https://github.com/OldJobobo/omarchy-florida-man-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-florida-man-theme/master/preview.png" width="320" alt="omarchy-florida-man-theme" /></a><br /><b>omarchy-florida-man-theme</b></td>
     <td align="center"><a href="https://github.com/OldJobobo/omarchy-deckard-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-deckard-theme/master/preview.png" width="320" alt="omarchy-deckard-theme" /></a><br /><b>omarchy-deckard-theme</b></td>
   </tr>
   <tr>
