@@ -16,7 +16,7 @@
 I build Linux desktop themes and tooling, with most work focused on Omarchy and Waybar workflows.
 
 ### Core Stack
-- Languages: C#, Python, Rust, Shell, CSS
+- Languages: Rust, Shell, CSS, HTML, Lua, Python, C#
 - Primary focus: Omarchy theming, Waybar tooling, Linux desktop automation
 - Secondary focus: game dev and interactive fiction
 
