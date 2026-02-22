@@ -1,6 +1,6 @@
-# Omarchy Theme Gallery
+# OldJobobo's Omarchy Theme Gallery
 
-A visual gallery of Omarchy themes published under `OldJobobo`.
+This is my personal Omarchy theme gallery: a curated collection of themes I've designed, refined, and published for my own desktop workflow and for the wider Omarchy community.
 
 ## Featured Themes
 
