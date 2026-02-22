@@ -1,6 +1,12 @@
-# Omarchy Theme Catalog
+# Omarchy Theme Gallery
 
-This catalog contains Omarchy themes published under `OldJobobo`.
+A visual gallery of Omarchy themes published under `OldJobobo`.
+
+<div align="center">
+  <a href="https://github.com/OldJobobo/omarchy-miasma-theme">
+    <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-miasma-theme/master/preview.png" alt="Miasma" width="900" />
+  </a>
+</div>
 
 ## Featured Theme
 
@@ -8,24 +14,97 @@ This catalog contains Omarchy themes published under `OldJobobo`.
 
 Official link: [omarchy-miasma-theme](https://github.com/OldJobobo/omarchy-miasma-theme)  
 Status: Active  
-Highlight: Officially adopted into the official Omarchy theme collection.
+Highlight: Officially adopted into the official Omarchy theme collection.  
+Stars: ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-miasma-theme?style=flat-square)
 
-## All Themes
+---
 
-| Name | Description | Stars |
-|------|-------------|-------|
-| [Miasma](https://github.com/OldJobobo/omarchy-miasma-theme) | Miasma color scheme for Omarchy. | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-miasma-theme?style=flat-square) |
-| [Florida Man](https://github.com/OldJobobo/omarchy-florida-man-theme) | GTA VI inspired Omarchy palette. | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-florida-man-theme?style=flat-square) |
-| [Deckard](https://github.com/OldJobobo/omarchy-deckard-theme) | Blade Runner inspired Omarchy palette. | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-deckard-theme?style=flat-square) |
-| [X-1632](https://github.com/OldJobobo/omarchy-x-1632-theme) | Mecha-inspired Omarchy palette. | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-x-1632-theme?style=flat-square) |
-| [City 783](https://github.com/OldJobobo/omarchy-city-783-theme) | Dark cyber-dystopian Omarchy palette. | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-city-783-theme?style=flat-square) |
-| [Batman](https://github.com/OldJobobo/omarchy-batman-theme) | Batman-inspired Omarchy palette. | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-batman-theme?style=flat-square) |
-| [Caroline Skyline](https://github.com/OldJobobo/omarchy-caroline-skyline-theme) | Caroline Base16 inspired Omarchy palette. | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-caroline-skyline-theme?style=flat-square) |
-| [Event Horizon](https://github.com/OldJobobo/omarchy-event-horizon-theme) | Event Horizon inspired Omarchy palette. | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-event-horizon-theme?style=flat-square) |
-| [Flat Dracula](https://github.com/OldJobobo/omarchy-flat-dracula-theme) | Flat Dracula style Omarchy palette. | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-flat-dracula-theme?style=flat-square) |
-| [Hex](https://github.com/OldJobobo/omarchy-hex-theme) | Hexagonal visual design for Omarchy. | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-hex-theme?style=flat-square) |
-| [Hinterlands](https://github.com/OldJobobo/omarchy-hinterlands-theme) | Monochrome dark Omarchy palette. | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-hinterlands-theme?style=flat-square) |
-| [Monolith](https://github.com/OldJobobo/omarchy-monolith-theme) | Compact distraction-free Omarchy palette. | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-monolith-theme?style=flat-square) |
-| [Phosphor OS](https://github.com/OldJobobo/omarchy-phosphor-os-theme) | Phosphor OS inspired Omarchy palette. | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-phosphor-os-theme?style=flat-square) |
-| [Grimdark Solarized](https://github.com/OldJobobo/omarchy-grimdark-solarized-theme) | Warhammer 40k inspired Omarchy palette. | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-grimdark-solarized-theme?style=flat-square) |
-| [Waffle Cat](https://github.com/OldJobobo/omarchy-waffle-cat-theme) | Waffle-Cat Omarchy palette. | ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-waffle-cat-theme?style=flat-square) |
+## Full Gallery
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://github.com/OldJobobo/omarchy-miasma-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-miasma-theme/master/preview.png" alt="Miasma" width="100%" /></a><br />
+      <b><a href="https://github.com/OldJobobo/omarchy-miasma-theme">Miasma</a></b><br />
+      ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-miasma-theme?style=flat-square)
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/OldJobobo/omarchy-florida-man-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-florida-man-theme/master/preview.png" alt="Florida Man" width="100%" /></a><br />
+      <b><a href="https://github.com/OldJobobo/omarchy-florida-man-theme">Florida Man</a></b><br />
+      ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-florida-man-theme?style=flat-square)
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/OldJobobo/omarchy-deckard-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-deckard-theme/master/preview.png" alt="Deckard" width="100%" /></a><br />
+      <b><a href="https://github.com/OldJobobo/omarchy-deckard-theme">Deckard</a></b><br />
+      ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-deckard-theme?style=flat-square)
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://github.com/OldJobobo/omarchy-x-1632-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-x-1632-theme/master/preview.png" alt="X-1632" width="100%" /></a><br />
+      <b><a href="https://github.com/OldJobobo/omarchy-x-1632-theme">X-1632</a></b><br />
+      ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-x-1632-theme?style=flat-square)
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/OldJobobo/omarchy-city-783-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-city-783-theme/master/preview.png" alt="City 783" width="100%" /></a><br />
+      <b><a href="https://github.com/OldJobobo/omarchy-city-783-theme">City 783</a></b><br />
+      ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-city-783-theme?style=flat-square)
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/OldJobobo/omarchy-batman-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-batman-theme/master/preview.png" alt="Batman" width="100%" /></a><br />
+      <b><a href="https://github.com/OldJobobo/omarchy-batman-theme">Batman</a></b><br />
+      ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-batman-theme?style=flat-square)
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://github.com/OldJobobo/omarchy-caroline-skyline-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-caroline-skyline-theme/master/preview.png" alt="Caroline Skyline" width="100%" /></a><br />
+      <b><a href="https://github.com/OldJobobo/omarchy-caroline-skyline-theme">Caroline Skyline</a></b><br />
+      ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-caroline-skyline-theme?style=flat-square)
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/OldJobobo/omarchy-event-horizon-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-event-horizon-theme/master/preview.png" alt="Event Horizon" width="100%" /></a><br />
+      <b><a href="https://github.com/OldJobobo/omarchy-event-horizon-theme">Event Horizon</a></b><br />
+      ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-event-horizon-theme?style=flat-square)
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/OldJobobo/omarchy-flat-dracula-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-flat-dracula-theme/master/preview.png" alt="Flat Dracula" width="100%" /></a><br />
+      <b><a href="https://github.com/OldJobobo/omarchy-flat-dracula-theme">Flat Dracula</a></b><br />
+      ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-flat-dracula-theme?style=flat-square)
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://github.com/OldJobobo/omarchy-hex-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-hex-theme/master/preview.png" alt="Hex" width="100%" /></a><br />
+      <b><a href="https://github.com/OldJobobo/omarchy-hex-theme">Hex</a></b><br />
+      ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-hex-theme?style=flat-square)
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/OldJobobo/omarchy-hinterlands-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-hinterlands-theme/master/preview.png" alt="Hinterlands" width="100%" /></a><br />
+      <b><a href="https://github.com/OldJobobo/omarchy-hinterlands-theme">Hinterlands</a></b><br />
+      ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-hinterlands-theme?style=flat-square)
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/OldJobobo/omarchy-monolith-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-monolith-theme/master/preview.png" alt="Monolith" width="100%" /></a><br />
+      <b><a href="https://github.com/OldJobobo/omarchy-monolith-theme">Monolith</a></b><br />
+      ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-monolith-theme?style=flat-square)
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://github.com/OldJobobo/omarchy-phosphor-os-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-phosphor-os-theme/master/preview.png" alt="Phosphor OS" width="100%" /></a><br />
+      <b><a href="https://github.com/OldJobobo/omarchy-phosphor-os-theme">Phosphor OS</a></b><br />
+      ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-phosphor-os-theme?style=flat-square)
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/OldJobobo/omarchy-grimdark-solarized-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-grimdark-solarized-theme/master/preview.png" alt="Grimdark Solarized" width="100%" /></a><br />
+      <b><a href="https://github.com/OldJobobo/omarchy-grimdark-solarized-theme">Grimdark Solarized</a></b><br />
+      ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-grimdark-solarized-theme?style=flat-square)
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/OldJobobo/omarchy-waffle-cat-theme"><img src="https://raw.githubusercontent.com/OldJobobo/omarchy-waffle-cat-theme/master/preview.png" alt="Waffle Cat" width="100%" /></a><br />
+      <b><a href="https://github.com/OldJobobo/omarchy-waffle-cat-theme">Waffle Cat</a></b><br />
+      ![Stars](https://img.shields.io/github/stars/OldJobobo/omarchy-waffle-cat-theme?style=flat-square)
+    </td>
+  </tr>
+</table>
