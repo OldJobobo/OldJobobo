@@ -32,20 +32,13 @@ A Miasma color scheme for Omarchy (now an official Omarchy theme in v3.4.0).
 
 ---
 
-## Theme Gallery
-
 <div align="center">
   <table width="100%">
     <tr>
       <td align="center">
-        <strong>Want the full Omarchy visual catalog?</strong>
-        <br />
-        Featured themes, previews, and direct repo links are all in one place.
-        <br /><br />
         <a href="./THEMES.md">
           <img src="https://img.shields.io/badge/Open-Full%20Theme%20Gallery-0E7490?style=for-the-badge&logo=github" alt="Open Full Theme Gallery" />
         </a>
-        <br />
         <a href="./THEMES.md">
           <img src="https://img.shields.io/badge/File-THEMES.md-1F2937?style=flat-square" alt="THEMES.md" />
         </a>
