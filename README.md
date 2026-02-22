@@ -35,24 +35,24 @@ A Miasma color scheme for Omarchy (now an official Omarchy theme in v3.4.0).
 ## Theme Gallery
 
 <div align="center">
-  <a href="./THEMES.md">
-    <img src="https://img.shields.io/badge/Omarchy%20Theme%20Gallery-Open%20THEMES.md-0E7490?style=for-the-badge&logo=github" alt="Open Omarchy Theme Gallery" />
-  </a>
+  <table width="100%">
+    <tr>
+      <td align="center">
+        <strong>Want the full Omarchy visual catalog?</strong>
+        <br />
+        Featured themes, previews, and direct repo links are all in one place.
+        <br /><br />
+        <a href="./THEMES.md">
+          <img src="https://img.shields.io/badge/Open-Full%20Theme%20Gallery-0E7490?style=for-the-badge&logo=github" alt="Open Full Theme Gallery" />
+        </a>
+        <br />
+        <a href="./THEMES.md">
+          <img src="https://img.shields.io/badge/File-THEMES.md-1F2937?style=flat-square" alt="THEMES.md" />
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
-
-<table width="100%">
-  <tr>
-    <td align="center">
-      <a href="./THEMES.md">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-miasma-theme/master/preview.png" alt="Theme gallery preview" width="100%" />
-      </a>
-      <br />
-      <strong>Browse the full visual catalog in <a href="./THEMES.md"><code>THEMES.md</code></a>.</strong>
-      <br />
-      This README keeps things lightweight; the complete theme showcase lives in the dedicated gallery page.
-    </td>
-  </tr>
-</table>
 
 ---
 
