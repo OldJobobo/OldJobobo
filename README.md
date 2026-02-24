@@ -61,7 +61,6 @@ If you are new to my work, these are the best places to start:
 | [make-colors](https://github.com/OldJobobo/make-colors) | Active | Generates `colors.toml` files for existing Omarchy themes. | Shell |
 | [CSIFEngine](https://github.com/OldJobobo/CSIFEngine) | Maintained | Interactive fiction engine for building narrative projects in C#. | C# |
 
-<details>
 <summary>More Linux Desktop Tools</summary>
 
 | Repository | Description | Language |
@@ -70,7 +69,6 @@ If you are new to my work, these are the best places to start:
 | [hyprscripts](https://github.com/OldJobobo/hyprscripts) | Keybind helper scripts for gap and window behavior workflows. | Shell |
 | [waffle-cat](https://github.com/OldJobobo/waffle-cat) | Warm-forward color scheme repository. | Shell |
 
-</details>
 
 ---
 
