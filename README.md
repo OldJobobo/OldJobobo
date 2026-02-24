@@ -44,7 +44,7 @@ A fast Omarchy theme manager for streamlined theme switching and operations.
   <tr>
     <td width="64%" valign="top">
       <a href="https://github.com/OldJobobo/theme-manager-plus">
-        <img src="https://opengraph.githubassets.com/1/OldJobobo/theme-manager-plus" alt="ThemeManager+ Preview" width="100%" />
+        <img src="https://raw.githubusercontent.com/OldJobobo/theme-manager-plus/master/preview.png" alt="ThemeManager+ Preview" width="100%" />
       </a>
     </td>
     <td width="36%" valign="top">

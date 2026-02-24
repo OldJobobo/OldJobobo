@@ -70,33 +70,33 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
 
 <br />
 
-### City 783
+### Retro 82
 
 <p align="center">
-  <img alt="Featured" src="https://img.shields.io/badge/Featured%20Theme-City%20783-f97316?style=for-the-badge" />
+  <img alt="Featured" src="https://img.shields.io/badge/Featured%20Theme-Retro%2082-f97316?style=for-the-badge" />
   <img alt="Status" src="https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge" />
-  <img alt="Style" src="https://img.shields.io/badge/Style-Neon%20Urban-06b6d4?style=for-the-badge" />
+  <img alt="Style" src="https://img.shields.io/badge/Style-Retro%20CRT-f59e0b?style=for-the-badge" />
 </p>
 
 <table width="100%">
   <tr>
     <td width="64%" valign="top">
-      <a href="https://github.com/OldJobobo/omarchy-city-783-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-city-783-theme/master/preview.png" alt="City 783 Theme Preview" width="100%" />
+      <a href="https://github.com/OldJobobo/omarchy-retro-82-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-retro-82-theme/master/preview.png" alt="Retro 82 Theme Preview" width="100%" />
       </a>
     </td>
     <td width="36%" valign="top">
-      <strong>City 783 channels a neon city atmosphere with crisp accents and night-drive depth.</strong>
+      <strong>Retro 82 brings vintage terminal glow and classic synth-era contrast to Omarchy.</strong>
       <br /><br />
-      Official link: <a href="https://github.com/OldJobobo/omarchy-city-783-theme"><code>omarchy-city-783-theme</code></a>
+      Official link: <a href="https://github.com/OldJobobo/omarchy-retro-82-theme"><code>omarchy-retro-82-theme</code></a>
       <br />
-      Highlight: Cyber-urban mood with clean readability across desktop modules.
+      Highlight: Retro-futuristic palette with readable, high-contrast module styling.
       <br /><br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-city-783-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-city-783-theme?style=flat-square" />
-      <img alt="Repo Size" src="https://img.shields.io/github/repo-size/OldJobobo/omarchy-city-783-theme?style=flat-square" />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-retro-82-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-retro-82-theme?style=flat-square" />
+      <img alt="Repo Size" src="https://img.shields.io/github/repo-size/OldJobobo/omarchy-retro-82-theme?style=flat-square" />
       <br /><br />
-      <a href="https://github.com/OldJobobo/omarchy-city-783-theme"><img alt="View on GitHub" src="https://img.shields.io/badge/View%20on-GitHub-111827?style=for-the-badge&logo=github" /></a>
+      <a href="https://github.com/OldJobobo/omarchy-retro-82-theme"><img alt="View on GitHub" src="https://img.shields.io/badge/View%20on-GitHub-111827?style=for-the-badge&logo=github" /></a>
     </td>
   </tr>
 </table>
@@ -324,6 +324,15 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
       <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-waffle-cat-theme?style=flat-square" />
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-waffle-cat-theme?style=flat-square" />
     </td>
-    <td width="33%" valign="top" align="center">&nbsp;</td>
+    <td width="33%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-retro-82-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-retro-82-theme/master/preview.png" alt="Retro 82 Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-retro-82-theme">Retro 82</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-retro-82-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-retro-82-theme?style=flat-square" />
+    </td>
   </tr>
 </table>
