@@ -22,13 +22,40 @@ I build Linux desktop themes and tooling, with most work focused on Omarchy and 
 
 ---
 
-## Featured Theme
+## Featured Repositories
 
 ### Miasma
 
 A Miasma color scheme for Omarchy (now an official Omarchy theme in v3.4.0).
 
-[![Miasma](https://raw.githubusercontent.com/OldJobobo/omarchy-miasma-theme/master/preview.png)](https://github.com/OldJobobo/omarchy-miasma-theme)
+<p align="center">
+  <img alt="Status" src="https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge" />
+  <img alt="Type" src="https://img.shields.io/badge/Type-Theme-0ea5e9?style=for-the-badge" />
+  <img alt="Focus" src="https://img.shields.io/badge/Focus-Official%20Omarchy%20Collection-f97316?style=for-the-badge" />
+</p>
+
+<table width="100%">
+  <tr>
+    <td width="64%" valign="top">
+      <a href="https://github.com/OldJobobo/omarchy-miasma-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-miasma-theme/master/preview.png" alt="Miasma Theme Preview" width="100%" />
+      </a>
+    </td>
+    <td width="36%" valign="top">
+      <strong>Miasma is a dark, high-contrast cinematic desktop theme built for Omarchy.</strong>
+      <br /><br />
+      Repo: <a href="https://github.com/OldJobobo/omarchy-miasma-theme"><code>omarchy-miasma-theme</code></a>
+      <br />
+      Highlight: Officially adopted into the official Omarchy theme collection.
+      <br /><br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-miasma-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-miasma-theme?style=flat-square" />
+      <img alt="Repo Size" src="https://img.shields.io/github/repo-size/OldJobobo/omarchy-miasma-theme?style=flat-square" />
+      <br /><br />
+      <a href="https://github.com/OldJobobo/omarchy-miasma-theme"><img alt="View on GitHub" src="https://img.shields.io/badge/View%20on-GitHub-111827?style=for-the-badge&logo=github" /></a>
+    </td>
+  </tr>
+</table>
 
 ### ThemeManager+
 
