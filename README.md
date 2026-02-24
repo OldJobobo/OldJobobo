@@ -30,6 +30,39 @@ A Miasma color scheme for Omarchy (now an official Omarchy theme in v3.4.0).
 
 [![Miasma](https://raw.githubusercontent.com/OldJobobo/omarchy-miasma-theme/master/preview.png)](https://github.com/OldJobobo/omarchy-miasma-theme)
 
+### ThemeManager+
+
+A fast Omarchy theme manager for streamlined theme switching and operations.
+
+<p align="center">
+  <img alt="Status" src="https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge" />
+  <img alt="Type" src="https://img.shields.io/badge/Type-CLI%20%2B%20TUI-0ea5e9?style=for-the-badge" />
+  <img alt="Focus" src="https://img.shields.io/badge/Focus-Omarchy%20Workflow-f97316?style=for-the-badge" />
+</p>
+
+<table width="100%">
+  <tr>
+    <td width="64%" valign="top">
+      <a href="https://github.com/OldJobobo/theme-manager-plus">
+        <img src="https://opengraph.githubassets.com/1/OldJobobo/theme-manager-plus" alt="ThemeManager+ Preview" width="100%" />
+      </a>
+    </td>
+    <td width="36%" valign="top">
+      <strong>ThemeManager+ drives Omarchy theme switching with a fast, script-friendly workflow.</strong>
+      <br /><br />
+      Repo: <a href="https://github.com/OldJobobo/theme-manager-plus"><code>theme-manager-plus</code></a>
+      <br />
+      Highlight: TUI + CLI flow with optional Waybar, Walker, Hyprlock, and Starship handling.
+      <br /><br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/theme-manager-plus?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/theme-manager-plus?style=flat-square" />
+      <img alt="Repo Size" src="https://img.shields.io/github/repo-size/OldJobobo/theme-manager-plus?style=flat-square" />
+      <br /><br />
+      <a href="https://github.com/OldJobobo/theme-manager-plus"><img alt="View on GitHub" src="https://img.shields.io/badge/View%20on-GitHub-111827?style=for-the-badge&logo=github" /></a>
+    </td>
+  </tr>
+</table>
+
 <div align="center">
   <a href="./THEMES.md">
     <img src="https://img.shields.io/badge/Open-Full%20Theme%20Gallery-0E7490?style=for-the-badge&logo=github" alt="Open Full Theme Gallery" />
