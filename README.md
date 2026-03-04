@@ -104,6 +104,8 @@ If you are new to my work, these are the best places to start:
 
 - [Miasma](https://github.com/OldJobobo/omarchy-miasma-theme): A Miasma color scheme for Omarchy, officially adopted into the official Omarchy theme collection.
 - [My Omarchy Themes](THEMES.md): full Omarchy theme catalog.
+- [dotfiles](https://github.com/OldJobobo/dotfiles): personal Linux desktop and Omarchy configuration source of truth.
+- [oldjobobo-custom-omarchy-templates](https://github.com/OldJobobo/oldjobobo-custom-omarchy-templates): custom Omarchy template set for personalized theme workflows.
 - [wayflipper](https://github.com/OldJobobo/wayflipper): switch Waybar themes quickly from a simple script workflow.
 - [theme-manager-plus](https://github.com/OldJobobo/theme-manager-plus): alternative Omarchy theme manager focused on fast theme operations.
 - [waffle-cat](https://github.com/OldJobobo/waffle-cat): warm-forward color scheme for desktop theming.
@@ -118,6 +120,8 @@ If you are new to my work, these are the best places to start:
 | [Miasma](https://github.com/OldJobobo/omarchy-miasma-theme) | Active | A Miasma color scheme for Omarchy, officially adopted into the official Omarchy theme collection. | CSS |
 | [wayflipper](https://github.com/OldJobobo/wayflipper) | Active | Switches Waybar themes fast for users managing multiple visual setups. | Shell |
 | [theme-manager-plus](https://github.com/OldJobobo/theme-manager-plus) | Active | Alternative Omarchy theme manager for streamlined desktop theming workflows. | Shell |
+| [dotfiles](https://github.com/OldJobobo/dotfiles) | Active | Personal Linux desktop and Omarchy dotfiles for reproducible setup and config workflows. | Shell |
+| [oldjobobo-custom-omarchy-templates](https://github.com/OldJobobo/oldjobobo-custom-omarchy-templates) | Active | Custom Omarchy templates for faster personal theme scaffolding and customization. | Shell |
 | [make-colors](https://github.com/OldJobobo/make-colors) | Active | Generates `colors.toml` files for existing Omarchy themes. | Shell |
 | [CSIFEngine](https://github.com/OldJobobo/CSIFEngine) | Maintained | Interactive fiction engine for building narrative projects in C#. | C# |
 
@@ -127,6 +131,8 @@ If you are new to my work, these are the best places to start:
 |------------|-------------|----------|
 | [omarchy-theme-hook-waybar](https://github.com/OldJobobo/omarchy-theme-hook-waybar) | Theme-set hook to load theme-specific Waybar configurations. | Shell |
 | [hyprscripts](https://github.com/OldJobobo/hyprscripts) | Keybind helper scripts for gap and window behavior workflows. | Shell |
+| [dotfiles](https://github.com/OldJobobo/dotfiles) | Linux desktop and Omarchy configuration collection. | Shell |
+| [oldjobobo-custom-omarchy-templates](https://github.com/OldJobobo/oldjobobo-custom-omarchy-templates) | Custom template pack for Omarchy theme authoring workflows. | Shell |
 | [waffle-cat](https://github.com/OldJobobo/waffle-cat) | Warm-forward color scheme repository. | Shell |
 
 
