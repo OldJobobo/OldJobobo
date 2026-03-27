@@ -4,6 +4,39 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
 
 ## Featured Themes
 
+### Lumon
+
+<p align="center">
+  <img alt="Featured" src="https://img.shields.io/badge/Featured%20Theme-Lumon-f97316?style=for-the-badge" />
+  <img alt="Status" src="https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge" />
+  <img alt="Style" src="https://img.shields.io/badge/Style-Cold%20Corporate-38bdf8?style=for-the-badge" />
+</p>
+
+<table width="100%">
+  <tr>
+    <td width="64%" valign="top">
+      <a href="https://github.com/OldJobobo/omarchy-lumon-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-lumon-theme/master/preview.png" alt="Lumon Theme Preview" width="100%" />
+      </a>
+    </td>
+    <td width="36%" valign="top">
+      <strong>Lumon brings cold corporate minimalism and sterile sci-fi tension to Omarchy.</strong>
+      <br /><br />
+      Official link: <a href="https://github.com/OldJobobo/omarchy-lumon-theme"><code>omarchy-lumon-theme</code></a>
+      <br />
+      Highlight: Clean, unsettling precision with a sharp monochrome-forward identity.
+      <br /><br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-lumon-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-lumon-theme?style=flat-square" />
+      <img alt="Repo Size" src="https://img.shields.io/github/repo-size/OldJobobo/omarchy-lumon-theme?style=flat-square" />
+      <br /><br />
+      <a href="https://github.com/OldJobobo/omarchy-lumon-theme"><img alt="View on GitHub" src="https://img.shields.io/badge/View%20on-GitHub-111827?style=for-the-badge&logo=github" /></a>
+    </td>
+  </tr>
+</table>
+
+<br />
+
 ### Miasma
 
 <p align="center">
@@ -31,39 +64,6 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
       <img alt="Repo Size" src="https://img.shields.io/github/repo-size/OldJobobo/omarchy-miasma-theme?style=flat-square" />
       <br /><br />
       <a href="https://github.com/OldJobobo/omarchy-miasma-theme"><img alt="View on GitHub" src="https://img.shields.io/badge/View%20on-GitHub-111827?style=for-the-badge&logo=github" /></a>
-    </td>
-  </tr>
-</table>
-
-<br />
-
-### Florida Man
-
-<p align="center">
-  <img alt="Featured" src="https://img.shields.io/badge/Featured%20Theme-Florida%20Man-f97316?style=for-the-badge" />
-  <img alt="Status" src="https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge" />
-  <img alt="Style" src="https://img.shields.io/badge/Style-Bold%20Retro-eab308?style=for-the-badge" />
-</p>
-
-<table width="100%">
-  <tr>
-    <td width="64%" valign="top">
-      <a href="https://github.com/OldJobobo/omarchy-florida-man-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-florida-man-theme/master/preview.png" alt="Florida Man Theme Preview" width="100%" />
-      </a>
-    </td>
-    <td width="36%" valign="top">
-      <strong>Florida Man leans into loud color, high energy contrast, and punchy personality.</strong>
-      <br /><br />
-      Official link: <a href="https://github.com/OldJobobo/omarchy-florida-man-theme"><code>omarchy-florida-man-theme</code></a>
-      <br />
-      Highlight: A maximal palette pick for standout desktop setups.
-      <br /><br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-florida-man-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-florida-man-theme?style=flat-square" />
-      <img alt="Repo Size" src="https://img.shields.io/github/repo-size/OldJobobo/omarchy-florida-man-theme?style=flat-square" />
-      <br /><br />
-      <a href="https://github.com/OldJobobo/omarchy-florida-man-theme"><img alt="View on GitHub" src="https://img.shields.io/badge/View%20on-GitHub-111827?style=for-the-badge&logo=github" /></a>
     </td>
   </tr>
 </table>
@@ -130,6 +130,39 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
       <img alt="Repo Size" src="https://img.shields.io/github/repo-size/OldJobobo/omarchy-biscuit-de-mar-dark-theme?style=flat-square" />
       <br /><br />
       <a href="https://github.com/OldJobobo/omarchy-biscuit-de-mar-dark-theme"><img alt="View on GitHub" src="https://img.shields.io/badge/View%20on-GitHub-111827?style=for-the-badge&logo=github" /></a>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+### Florida Man
+
+<p align="center">
+  <img alt="Featured" src="https://img.shields.io/badge/Featured%20Theme-Florida%20Man-f97316?style=for-the-badge" />
+  <img alt="Status" src="https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge" />
+  <img alt="Style" src="https://img.shields.io/badge/Style-Bold%20Retro-eab308?style=for-the-badge" />
+</p>
+
+<table width="100%">
+  <tr>
+    <td width="64%" valign="top">
+      <a href="https://github.com/OldJobobo/omarchy-florida-man-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-florida-man-theme/master/preview.png" alt="Florida Man Theme Preview" width="100%" />
+      </a>
+    </td>
+    <td width="36%" valign="top">
+      <strong>Florida Man leans into loud color, high energy contrast, and punchy personality.</strong>
+      <br /><br />
+      Official link: <a href="https://github.com/OldJobobo/omarchy-florida-man-theme"><code>omarchy-florida-man-theme</code></a>
+      <br />
+      Highlight: A maximal palette pick for standout desktop setups.
+      <br /><br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-florida-man-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-florida-man-theme?style=flat-square" />
+      <img alt="Repo Size" src="https://img.shields.io/github/repo-size/OldJobobo/omarchy-florida-man-theme?style=flat-square" />
+      <br /><br />
+      <a href="https://github.com/OldJobobo/omarchy-florida-man-theme"><img alt="View on GitHub" src="https://img.shields.io/badge/View%20on-GitHub-111827?style=for-the-badge&logo=github" /></a>
     </td>
   </tr>
 </table>
@@ -334,5 +367,19 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
       <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-retro-82-theme?style=flat-square" />
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-retro-82-theme?style=flat-square" />
     </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-lumon-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-lumon-theme/master/preview.png" alt="Lumon Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-lumon-theme">Lumon</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-lumon-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-lumon-theme?style=flat-square" />
+    </td>
+    <td width="33%" valign="top" align="center"></td>
+    <td width="33%" valign="top" align="center"></td>
   </tr>
 </table>
