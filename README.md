@@ -13,12 +13,13 @@
 
 ## About Me
 
-I build Linux desktop themes and tooling, with most work focused on Omarchy and Waybar workflows.
+I build Linux desktop themes, Base16/Base24 colorschemes, and tooling, with most work focused on Omarchy and Linux desktop theming workflows.
 
 ### Core Stack
-- Languages: Rust, Shell, CSS, HTML, Lua, Python, C#
-- Primary focus: Omarchy theming, Waybar tooling, Linux desktop automation
-- Secondary focus: game dev and interactive fiction
+- Languages: Rust, Bash, CSS, HTML, Lua, Python, C#
+- Primary focus: Omarchy theming, Linux desktop tooling, Waybar workflows
+- Secondary focus: Base16/Base24 colorschemes, editor themes, and supporting tooling
+- Tertiary focus: older game dev and interactive fiction work
 
 ---
 
