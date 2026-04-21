@@ -410,4 +410,27 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-sakura-mochi-theme?style=flat-square" />
     </td>
   </tr>
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-ghosts-i-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-ghosts-i-theme/master/preview.png" alt="Ghosts I Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-ghosts-i-theme">Ghosts I</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-ghosts-i-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-ghosts-i-theme?style=flat-square" />
+    </td>
+    <td width="33%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-awakening-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-awakening-theme/master/preview.png" alt="Awakening Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-awakening-theme">Awakening</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-awakening-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-awakening-theme?style=flat-square" />
+    </td>
+    <td width="33%" valign="top" align="center"></td>
+  </tr>
 </table>
