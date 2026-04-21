@@ -239,6 +239,8 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
       <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-dune-theme?style=flat-square" />
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-dune-theme?style=flat-square" />
     </td>
+  </tr>
+  <tr>
     <td width="33%" valign="top" align="center">
       <a href="https://github.com/OldJobobo/omarchy-x-1632-theme">
         <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-x-1632-theme/master/preview.png" alt="X-1632 Theme Preview" width="100%" />
@@ -249,8 +251,6 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
       <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-x-1632-theme?style=flat-square" />
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-x-1632-theme?style=flat-square" />
     </td>
-  </tr>
-  <tr>
     <td width="33%" valign="top" align="center">
       <a href="https://github.com/OldJobobo/omarchy-city-783-theme">
         <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-city-783-theme/master/preview.png" alt="City 783 Theme Preview" width="100%" />
@@ -271,6 +271,8 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
       <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-batman-theme?style=flat-square" />
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-batman-theme?style=flat-square" />
     </td>
+  </tr>
+  <tr>
     <td width="33%" valign="top" align="center">
       <a href="https://github.com/OldJobobo/omarchy-caroline-skyline-theme">
         <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-caroline-skyline-theme/master/preview.png" alt="Caroline Skyline Theme Preview" width="100%" />
