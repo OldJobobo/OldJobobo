@@ -13,14 +13,19 @@
 
 ## About me
 
-I build Linux desktop themes, Base16/Base24 colorschemes, and tooling, with most work focused on Omarchy and Linux desktop theming workflows.
+I design Omarchy themes, color systems, and small Linux desktop tools for people who like their setup to feel intentional. Most of my work sits at the intersection of visual polish and practical workflow: theme catalogs, wallpaper tooling, Waybar/Hyprland integrations, editor colorschemes, and scripts that make daily desktop customization faster.
+
+### What I work on
+
+- Omarchy themes with cohesive palettes, desktop assets, and practical config coverage
+- Theme tooling for colorscheme generation, wallpaper workflows, and repeatable desktop customization
+- Linux desktop configuration around Hyprland, Waybar, Foot, SwayNC, and shell-driven automation
+- Base16/Base24 palettes, VS Code themes, Neovim colorschemes, and related design experiments
 
 ### Core stack
 
 - Tools: Codex, Claude, OpenCode, Aether, GoWall, GIMP, Neovim
-- Languages: Rust, Bash, CSS, HTML, Lua, Python, C#, JSON
-- Primary focus: Omarchy theming, Linux desktop tooling, Waybar workflows
-- Secondary focus: Base16/Base24 colorschemes, editor themes, and supporting tooling
+- Languages: Rust, Go, Bash, CSS, HTML, Lua, Python, C#, JSON
 
 ---
 
