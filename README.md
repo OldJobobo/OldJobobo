@@ -2,28 +2,29 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:101820,35:1D3557,70:3A506B,100:5BC0BE&text=OldJobobo&fontColor=F4F7F5&fontSize=56&desc=Omarchy%20Themes%20%7C%20Linux%20Desktop%20Tooling&descAlignY=68" alt="OldJobobo profile banner" />
 </div>
 
-<div align="center">
+<p align="center">
+  <a href="https://github.com/OldJobobo"><img src="https://img.shields.io/github/followers/OldJobobo?style=for-the-badge&label=Followers" alt="GitHub followers" /></a>
+  <a href="https://github.com/OldJobobo"><img src="https://img.shields.io/github/stars/OldJobobo?style=for-the-badge&label=Profile%20Stars" alt="GitHub stars" /></a>
+  <a href="THEMES.md"><img src="https://img.shields.io/badge/Themes-Catalog-0E7490?style=for-the-badge" alt="Themes Catalog" /></a>
+  <a href="https://ko-fi.com/oldjobobo"><img src="https://img.shields.io/badge/Support-Ko--fi-2D3142?style=for-the-badge" alt="Support on Ko-fi" /></a>
+</p>
 
-[![GitHub followers](https://img.shields.io/github/followers/OldJobobo?style=for-the-badge&label=Followers)](https://github.com/OldJobobo)
-[![GitHub stars](https://img.shields.io/github/stars/OldJobobo?style=for-the-badge&label=Profile%20Stars)](https://github.com/OldJobobo)
-[![Themes Catalog](https://img.shields.io/badge/Themes-Catalog-0E7490?style=for-the-badge)](THEMES.md)
-[![Support](https://img.shields.io/badge/Support-Ko--fi-2D3142?style=for-the-badge)](https://ko-fi.com/oldjobobo)
+# OldJobobo
 
-</div>
-
-## About Me
+## About me
 
 I build Linux desktop themes, Base16/Base24 colorschemes, and tooling, with most work focused on Omarchy and Linux desktop theming workflows.
 
-### Core Stack
+### Core stack
+
 - Tools: Codex, Claude, OpenCode, Aether, GoWall, GIMP, Neovim
-- Languages: Rust, Bash, CSS, HTML, Lua, Python, C#, json
+- Languages: Rust, Bash, CSS, HTML, Lua, Python, C#, JSON
 - Primary focus: Omarchy theming, Linux desktop tooling, Waybar workflows
 - Secondary focus: Base16/Base24 colorschemes, editor themes, and supporting tooling
 
 ---
 
-## Featured Repositories
+## Featured repositories
 
 ### Miasma
 
@@ -99,21 +100,17 @@ A fast Omarchy theme manager for streamlined theme switching and operations.
 
 ---
 
-## Start Here
+## Start here
 
 If you are new to my work, these are the best places to start:
 
-- [My Omarchy Themes](THEMES.md): full Omarchy theme catalog.
-- [dotfiles](https://github.com/OldJobobo/dotfiles): personal Linux desktop and Omarchy configuration source of truth.
-- [oldjobobo-custom-omarchy-templates](https://github.com/OldJobobo/oldjobobo-custom-omarchy-templates): custom Omarchy template set for personalized theme workflows.
-- [theme-manager-plus](https://github.com/OldJobobo/theme-manager-plus): alternative Omarchy theme manager focused on fast theme operations.
-- [waffle-cat](https://github.com/OldJobobo/waffle-cat): warm-forward color scheme for desktop theming.
-- [wayflipper](https://github.com/OldJobobo/wayflipper): switch Waybar themes quickly from a simple script workflow.
-- [CSIFEngine](https://github.com/OldJobobo/CSIFEngine): C# interactive fiction engine.
+- [My Omarchy themes](THEMES.md): full visual theme catalog.
+- [Featured projects](#featured-projects): active tools and configuration projects.
+- [Issue and contribution guide](#issue-and-contribution-guide): what to include when opening bugs or feature requests.
 
 ---
 
-## Featured Projects
+## Featured projects
 
 | Repository | Status | Description | Language |
 |------------|--------|-------------|----------|
@@ -122,17 +119,24 @@ If you are new to my work, these are the best places to start:
 | [dotfiles](https://github.com/OldJobobo/dotfiles) | Active | Personal Linux desktop and Omarchy dotfiles for reproducible setup and config workflows. | Shell |
 | [oldjobobo-custom-omarchy-templates](https://github.com/OldJobobo/oldjobobo-custom-omarchy-templates) | Active | Custom Omarchy templates for faster personal theme scaffolding and customization. | Shell |
 | [make-colors](https://github.com/OldJobobo/make-colors) | Active | Generates `colors.toml` files for existing Omarchy themes. | Shell |
+| [jobowalls](https://github.com/OldJobobo/jobowalls) | Active | Alternative wallpaper picker and manager for Omarchy. | Rust |
+| [based](https://github.com/OldJobobo/based) | Active | Base16/Base24 colorscheme editor for theme authoring. | Rust |
+| [aether](https://github.com/OldJobobo/aether) | Active | Tooling for creating Omarchy themes more quickly. | Go |
+| [collago](https://github.com/OldJobobo/collago) | Active | Declarative collage wallpaper generator. | Go |
+| [omapal](https://github.com/OldJobobo/omapal) | Active | Theme coloring tool for Omarchy themes. | Python |
 
-<summary>More Linux Desktop Tools</summary>
+### More Linux desktop tools
 
 | Repository | Description | Language |
 |------------|-------------|----------|
 | [omarchy-theme-hook-waybar](https://github.com/OldJobobo/omarchy-theme-hook-waybar) | Theme-set hook to load theme-specific Waybar configurations. | Shell |
 | [hyprscripts](https://github.com/OldJobobo/hyprscripts) | Keybind helper scripts for gap and window behavior workflows. | Shell |
-| [dotfiles](https://github.com/OldJobobo/dotfiles) | Linux desktop and Omarchy configuration collection. | Shell |
-| [oldjobobo-custom-omarchy-templates](https://github.com/OldJobobo/oldjobobo-custom-omarchy-templates) | Custom template pack for Omarchy theme authoring workflows. | Shell |
 | [waffle-cat](https://github.com/OldJobobo/waffle-cat) | Warm-forward color scheme repository. | Shell |
-
+| [omarchy-swaync-theme-integration](https://github.com/OldJobobo/omarchy-swaync-theme-integration) | Swaync theming integration for Omarchy. | Go Template |
+| [foot-omarchy-implementation](https://github.com/OldJobobo/foot-omarchy-implementation) | Documentation and dotfiles for implementing Foot in Omarchy. | Shell |
+| [cliamp-omarchy-theme](https://github.com/OldJobobo/cliamp-omarchy-theme) | Hooklette and template for Cliamp theming on Omarchy. | Go Template |
+| [omarchy-foot-themed](https://github.com/OldJobobo/omarchy-foot-themed) | Adds Omarchy theming support to the Foot terminal. | Go Template |
+| [Omarchy-Theme-Management](https://github.com/OldJobobo/Omarchy-Theme-Management) | Documentation for Omarchy theme management workflows. | Markdown |
 
 ---
 
@@ -148,7 +152,7 @@ If your setup differs, open an issue with your environment details and I can hel
 
 ---
 
-## Issue and Contribution Guide
+## Issue and contribution guide
 
 Use the target repository's Issues page and include:
 
@@ -161,7 +165,7 @@ For feature requests, describe the user problem first, then the proposed behavio
 
 ---
 
-## GitHub Activity
+## GitHub activity
 
 <div align="center">
   <a href="https://github.com/OldJobobo?tab=repositories">View Repositories</a> |
@@ -171,7 +175,7 @@ For feature requests, describe the user problem first, then the proposed behavio
 
 ---
 
-## Contact and Support
+## Contact and support
 
 - For project questions and bugs: open an issue in the relevant repository.
 - For updates and code browsing: follow [github.com/OldJobobo](https://github.com/OldJobobo).
