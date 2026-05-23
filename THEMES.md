@@ -172,8 +172,10 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
 ## Full gallery
 
 <p align="center">
-  Click any preview to open its repository.
+  Click any preview to open its repository. Productivity themes are daily-driver palettes built for focus and readability; novelty themes lean harder into character, story, or pop-culture concepts.
 </p>
+
+### Productivity themes
 
 <table width="100%">
   <tr>
@@ -210,18 +212,6 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-miasma-theme?style=flat-square" />
     </td>
     <td width="50%" valign="top" align="center">
-      <a href="https://github.com/OldJobobo/omarchy-florida-man-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-florida-man-theme/master/preview.png" alt="Florida Man Theme Preview" width="100%" />
-      </a>
-      <br />
-      <strong><a href="https://github.com/OldJobobo/omarchy-florida-man-theme">Florida Man</a></strong>
-      <br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-florida-man-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-florida-man-theme?style=flat-square" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" align="center">
       <a href="https://github.com/OldJobobo/omarchy-deckard-theme">
         <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-deckard-theme/master/preview.png" alt="Deckard Theme Preview" width="100%" />
       </a>
@@ -230,16 +220,6 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
       <br />
       <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-deckard-theme?style=flat-square" />
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-deckard-theme?style=flat-square" />
-    </td>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/OldJobobo/omarchy-dune-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-dune-theme/master/preview.png" alt="Dune Theme Preview" width="100%" />
-      </a>
-      <br />
-      <strong><a href="https://github.com/OldJobobo/omarchy-dune-theme">Dune</a></strong>
-      <br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-dune-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-dune-theme?style=flat-square" />
     </td>
   </tr>
   <tr>
@@ -262,6 +242,165 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
       <br />
       <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-city-783-theme?style=flat-square" />
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-city-783-theme?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-flat-dracula-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-flat-dracula-theme/master/preview.png" alt="Flat Dracula Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-flat-dracula-theme">Flat Dracula</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-flat-dracula-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-flat-dracula-theme?style=flat-square" />
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-hex-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-hex-theme/master/preview.png" alt="Hex Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-hex-theme">Hex</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-hex-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-hex-theme?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-hinterlands-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-hinterlands-theme/master/preview.png" alt="Hinterlands Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-hinterlands-theme">Hinterlands</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-hinterlands-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-hinterlands-theme?style=flat-square" />
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-monolith-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-monolith-theme/master/preview.png" alt="Monolith Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-monolith-theme">Monolith</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-monolith-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-monolith-theme?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-phosphor-os-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-phosphor-os-theme/master/preview.png" alt="Phosphor OS Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-phosphor-os-theme">Phosphor OS</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-phosphor-os-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-phosphor-os-theme?style=flat-square" />
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-grimdark-solarized-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-grimdark-solarized-theme/master/preview.png" alt="Grimdark Solarized Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-grimdark-solarized-theme">Grimdark Solarized</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-grimdark-solarized-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-grimdark-solarized-theme?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-waffle-cat-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-waffle-cat-theme/master/preview.png" alt="Waffle Cat Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-waffle-cat-theme">Waffle Cat</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-waffle-cat-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-waffle-cat-theme?style=flat-square" />
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-retro-82-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-retro-82-theme/master/preview.png" alt="Retro 82 Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-retro-82-theme">Retro 82</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-retro-82-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-retro-82-theme?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-lumon-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-lumon-theme/master/preview.png" alt="Lumon Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-lumon-theme">Lumon</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-lumon-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-lumon-theme?style=flat-square" />
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-sakura-mochi-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-sakura-mochi-theme/master/preview.png" alt="Sakura Mochi Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-sakura-mochi-theme">Sakura Mochi</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-sakura-mochi-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-sakura-mochi-theme?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-gruvbox-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-gruvbox-theme/master/preview.png" alt="Gruvbox Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-gruvbox-theme">Gruvbox</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-gruvbox-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-gruvbox-theme?style=flat-square" />
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-windows-dark-mode-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-windows-dark-mode-theme/master/preview.png" alt="Windows Dark Mode Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-windows-dark-mode-theme">Windows Dark Mode</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-windows-dark-mode-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-windows-dark-mode-theme?style=flat-square" />
+    </td>
+  </tr>
+</table>
+
+### Novelty themes
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-florida-man-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-florida-man-theme/master/preview.png" alt="Florida Man Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-florida-man-theme">Florida Man</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-florida-man-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-florida-man-theme?style=flat-square" />
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-dune-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-dune-theme/master/preview.png" alt="Dune Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-dune-theme">Dune</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-dune-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-dune-theme?style=flat-square" />
     </td>
   </tr>
   <tr>
@@ -298,106 +437,6 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-event-horizon-theme?style=flat-square" />
     </td>
     <td width="50%" valign="top" align="center">
-      <a href="https://github.com/OldJobobo/omarchy-flat-dracula-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-flat-dracula-theme/master/preview.png" alt="Flat Dracula Theme Preview" width="100%" />
-      </a>
-      <br />
-      <strong><a href="https://github.com/OldJobobo/omarchy-flat-dracula-theme">Flat Dracula</a></strong>
-      <br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-flat-dracula-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-flat-dracula-theme?style=flat-square" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/OldJobobo/omarchy-hex-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-hex-theme/master/preview.png" alt="Hex Theme Preview" width="100%" />
-      </a>
-      <br />
-      <strong><a href="https://github.com/OldJobobo/omarchy-hex-theme">Hex</a></strong>
-      <br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-hex-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-hex-theme?style=flat-square" />
-    </td>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/OldJobobo/omarchy-hinterlands-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-hinterlands-theme/master/preview.png" alt="Hinterlands Theme Preview" width="100%" />
-      </a>
-      <br />
-      <strong><a href="https://github.com/OldJobobo/omarchy-hinterlands-theme">Hinterlands</a></strong>
-      <br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-hinterlands-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-hinterlands-theme?style=flat-square" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/OldJobobo/omarchy-monolith-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-monolith-theme/master/preview.png" alt="Monolith Theme Preview" width="100%" />
-      </a>
-      <br />
-      <strong><a href="https://github.com/OldJobobo/omarchy-monolith-theme">Monolith</a></strong>
-      <br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-monolith-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-monolith-theme?style=flat-square" />
-    </td>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/OldJobobo/omarchy-phosphor-os-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-phosphor-os-theme/master/preview.png" alt="Phosphor OS Theme Preview" width="100%" />
-      </a>
-      <br />
-      <strong><a href="https://github.com/OldJobobo/omarchy-phosphor-os-theme">Phosphor OS</a></strong>
-      <br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-phosphor-os-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-phosphor-os-theme?style=flat-square" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/OldJobobo/omarchy-grimdark-solarized-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-grimdark-solarized-theme/master/preview.png" alt="Grimdark Solarized Theme Preview" width="100%" />
-      </a>
-      <br />
-      <strong><a href="https://github.com/OldJobobo/omarchy-grimdark-solarized-theme">Grimdark Solarized</a></strong>
-      <br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-grimdark-solarized-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-grimdark-solarized-theme?style=flat-square" />
-    </td>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/OldJobobo/omarchy-waffle-cat-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-waffle-cat-theme/master/preview.png" alt="Waffle Cat Theme Preview" width="100%" />
-      </a>
-      <br />
-      <strong><a href="https://github.com/OldJobobo/omarchy-waffle-cat-theme">Waffle Cat</a></strong>
-      <br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-waffle-cat-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-waffle-cat-theme?style=flat-square" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/OldJobobo/omarchy-retro-82-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-retro-82-theme/master/preview.png" alt="Retro 82 Theme Preview" width="100%" />
-      </a>
-      <br />
-      <strong><a href="https://github.com/OldJobobo/omarchy-retro-82-theme">Retro 82</a></strong>
-      <br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-retro-82-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-retro-82-theme?style=flat-square" />
-    </td>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/OldJobobo/omarchy-lumon-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-lumon-theme/master/preview.png" alt="Lumon Theme Preview" width="100%" />
-      </a>
-      <br />
-      <strong><a href="https://github.com/OldJobobo/omarchy-lumon-theme">Lumon</a></strong>
-      <br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-lumon-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-lumon-theme?style=flat-square" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" align="center">
       <a href="https://github.com/OldJobobo/omarchy-the-loop-theme">
         <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-the-loop-theme/master/preview.png" alt="The Loop Theme Preview" width="100%" />
       </a>
@@ -406,16 +445,6 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
       <br />
       <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-the-loop-theme?style=flat-square" />
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-the-loop-theme?style=flat-square" />
-    </td>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/OldJobobo/omarchy-sakura-mochi-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-sakura-mochi-theme/master/preview.png" alt="Sakura Mochi Theme Preview" width="100%" />
-      </a>
-      <br />
-      <strong><a href="https://github.com/OldJobobo/omarchy-sakura-mochi-theme">Sakura Mochi</a></strong>
-      <br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-sakura-mochi-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-sakura-mochi-theme?style=flat-square" />
     </td>
   </tr>
   <tr>
@@ -504,28 +533,6 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
       <br />
       <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-dune-messiah-theme?style=flat-square" />
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-dune-messiah-theme?style=flat-square" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/OldJobobo/omarchy-gruvbox-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-gruvbox-theme/master/preview.png" alt="Gruvbox Theme Preview" width="100%" />
-      </a>
-      <br />
-      <strong><a href="https://github.com/OldJobobo/omarchy-gruvbox-theme">Gruvbox</a></strong>
-      <br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-gruvbox-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-gruvbox-theme?style=flat-square" />
-    </td>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/OldJobobo/omarchy-windows-dark-mode-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-windows-dark-mode-theme/master/preview.png" alt="Windows Dark Mode Theme Preview" width="100%" />
-      </a>
-      <br />
-      <strong><a href="https://github.com/OldJobobo/omarchy-windows-dark-mode-theme">Windows Dark Mode</a></strong>
-      <br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-windows-dark-mode-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-windows-dark-mode-theme?style=flat-square" />
     </td>
   </tr>
 </table>
