@@ -22,6 +22,9 @@ jobs:
         with:
           node-version: "22"
 
+      - name: Test profile generator
+        run: node --test scripts/generate-profile.test.mjs
+
       - name: Generate profile Markdown
         run: node scripts/generate-profile.mjs
         env:
@@ -36,11 +39,14 @@ jobs:
           title: Update generated profile sections
           commit-message: Update generated profile sections
           body: |
-            Automated profile refresh from GitHub repository topics.
+            Automated profile refresh from GitHub repository metadata.
 
-            Source topics:
-            - `omarchy-theme`
-            - `profile-project`
-            - `profile-featured`
-            - `theme-productivity`
-            - `theme-novelty`
+            Theme gallery source:
+            - public, non-fork repos named `omarchy-<name>-theme`
+            - root `preview.png`
+            - root `.omarchy-theme.yml` with `gallery: true`
+            - `category: productivity` or `category: novelty`
+
+            Project source:
+            - `profile-project` topic
+            - seeded profile project list

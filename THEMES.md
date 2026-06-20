@@ -545,4 +545,11 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
 
 ## Gallery maintenance
 
-Generated gallery images use each theme repository's default branch and `preview.png` file. Add `omarchy-theme` plus either `theme-productivity` or `theme-novelty` topics to publish a theme into this gallery.
+Generated gallery images use each theme repository's default branch and `preview.png` file. New themes are discovered from public, non-fork repositories named `omarchy-<name>-theme` that include a root `.omarchy-theme.yml` marker:
+
+```yaml
+gallery: true
+category: productivity
+```
+
+Use `category: novelty` for novelty themes. Optional fields include `name`, `description`, and `preview` when the display name or preview path needs an override.

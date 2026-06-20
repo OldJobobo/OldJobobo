@@ -1,20 +1,19 @@
 #!/usr/bin/env node
 
 import { readFile, writeFile } from "node:fs/promises";
+import { pathToFileURL } from "node:url";
 
 const owner = process.env.PROFILE_OWNER || "OldJobobo";
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "";
 const apiBase = process.env.GITHUB_API_URL || "https://api.github.com";
 const dryRun = process.argv.includes("--check") || process.argv.includes("--dry-run");
 const skipPreviewCheck = process.env.SKIP_PREVIEW_CHECK === "1";
+const skipThemeMetadataCheck = process.env.SKIP_THEME_METADATA_CHECK === "1";
 
 const topics = {
-  theme: "omarchy-theme",
   project: "profile-project",
   featured: "profile-featured",
   archived: "profile-archived",
-  productivity: "theme-productivity",
-  novelty: "theme-novelty",
 };
 
 const seededProjects = [
@@ -99,19 +98,18 @@ const markers = {
 async function main() {
   const repos = await getAllRepos();
   const publicRepos = repos.filter((repo) => !repo.private && (!repo.archived || hasTopic(repo, topics.archived)));
-  const themeRepos = publicRepos.filter(isThemeRepo);
+  const themeDiscovery = await discoverThemeGalleryRepos(publicRepos, {
+    fileExists: githubFileExists,
+    readTextFile: githubReadTextFile,
+    requireFiles: !skipThemeMetadataCheck,
+  });
   const projectRepos = publicRepos.filter(isProjectRepo);
-  const productivityThemes = themeRepos.filter((repo) => isProductivityTheme(repo));
-  const noveltyThemes = themeRepos.filter((repo) => isNoveltyTheme(repo));
-  const uncategorizedThemes = themeRepos.filter((repo) => !isProductivityTheme(repo) && !isNoveltyTheme(repo));
 
-  if (uncategorizedThemes.length > 0) {
-    const names = uncategorizedThemes.map((repo) => repo.name).sort().join(", ");
-    throw new Error(`Theme repositories need either ${topics.productivity} or ${topics.novelty}: ${names}`);
-  }
-
-  if (!skipPreviewCheck) {
-    await assertThemePreviews(themeRepos);
+  if (!skipPreviewCheck && themeDiscovery.skipped.some((item) => item.reason === "missing preview.png")) {
+    const missing = themeDiscovery.skipped
+      .filter((item) => item.reason === "missing preview.png")
+      .map((item) => `${item.repo.name}: ${rawPreviewUrl(item.repo)}`);
+    throw new Error(`Theme preview.png check failed:\n${missing.join("\n")}`);
   }
 
   const nextReadme = replaceGeneratedRegion(
@@ -124,10 +122,10 @@ async function main() {
     replaceGeneratedRegion(
       await readFile("THEMES.md", "utf8"),
       markers.productivity,
-      renderThemeGallery(sortRepos(productivityThemes, productivityOrder)),
+      renderThemeGallery(sortRepos(themeDiscovery.productivity, productivityOrder)),
     ),
     markers.novelty,
-    renderThemeGallery(sortRepos(noveltyThemes, noveltyOrder)),
+    renderThemeGallery(sortRepos(themeDiscovery.novelty, noveltyOrder)),
   );
 
   if (dryRun) {
@@ -180,20 +178,112 @@ function githubHeaders() {
   };
 }
 
-async function assertThemePreviews(repos) {
-  const missing = [];
+async function githubFileExists(repo, path) {
+  const response = await fetch(rawRepoFileUrl(repo, path), { method: "HEAD", headers: { "User-Agent": "oldjobobo-profile-generator" } });
+  return response.ok;
+}
+
+async function githubReadTextFile(repo, path) {
+  const response = await fetch(rawRepoFileUrl(repo, path), { headers: { "User-Agent": "oldjobobo-profile-generator" } });
+  if (!response.ok) {
+    throw new Error(`Unable to read ${path} from ${repo.name}: ${response.status} ${response.statusText}`);
+  }
+  return response.text();
+}
+
+async function discoverThemeGalleryRepos(repos, options = {}) {
+  const fileExists = options.fileExists || githubFileExists;
+  const readTextFile = options.readTextFile || githubReadTextFile;
+  const requireFiles = options.requireFiles !== false;
+  const productivity = [];
+  const novelty = [];
+  const skipped = [];
 
   for (const repo of repos) {
-    const previewUrl = rawPreviewUrl(repo);
-    const response = await fetch(previewUrl, { method: "HEAD", headers: { "User-Agent": "oldjobobo-profile-generator" } });
-    if (!response.ok) {
-      missing.push(`${repo.name}: ${previewUrl}`);
+    const basicReason = themeGalleryBasicSkipReason(repo);
+    if (basicReason) {
+      skipped.push({ repo, reason: basicReason });
+      continue;
+    }
+
+    if (requireFiles && !(await fileExists(repo, "preview.png"))) {
+      skipped.push({ repo, reason: "missing preview.png" });
+      continue;
+    }
+
+    let metadata = {};
+    if (requireFiles) {
+      let source = "";
+      try {
+        source = await readTextFile(repo, ".omarchy-theme.yml");
+        metadata = parseThemeGalleryMetadata(source);
+      } catch {
+        if (isSeededTheme(repo)) {
+          metadata = legacySeededThemeMetadata(repo);
+        } else {
+          skipped.push({ repo, reason: "missing .omarchy-theme.yml" });
+          continue;
+        }
+      }
+    }
+
+    if (!isThemeGalleryRepo(repo, { hasPreview: true, metadata, requireFiles })) {
+      skipped.push({ repo, reason: metadata.gallery === true ? "invalid category" : "metadata gallery is not true" });
+      continue;
+    }
+
+    const enrichedRepo = { ...repo, themeMetadata: metadata };
+    if (themeCategory(enrichedRepo) === "novelty") {
+      novelty.push(enrichedRepo);
+    } else {
+      productivity.push(enrichedRepo);
     }
   }
 
-  if (missing.length > 0) {
-    throw new Error(`Theme preview.png check failed:\n${missing.join("\n")}`);
+  return { productivity, novelty, skipped };
+}
+
+function isThemeGalleryRepo(repo, { hasPreview = false, metadata = {}, requireFiles = true } = {}) {
+  if (themeGalleryBasicSkipReason(repo)) return false;
+  if (requireFiles && !hasPreview) return false;
+  if (requireFiles && metadata.gallery !== true) return false;
+  if (!isValidThemeCategory(metadata.category || "productivity")) return false;
+  return true;
+}
+
+function themeGalleryBasicSkipReason(repo) {
+  if (!/^omarchy-.+-theme$/.test(repo.name)) return "name does not match omarchy-<name>-theme";
+  if (repo.private) return "private";
+  if (repo.archived) return "archived";
+  if (repo.disabled) return "disabled";
+  if (repo.fork) return "fork";
+  return "";
+}
+
+function parseThemeGalleryMetadata(source) {
+  const metadata = {};
+  for (const rawLine of String(source).split(/\r?\n/)) {
+    const line = rawLine.trim();
+    if (!line || line.startsWith("#")) continue;
+    const separator = line.indexOf(":");
+    if (separator === -1) continue;
+    const key = line.slice(0, separator).trim();
+    const rawValue = line.slice(separator + 1).trim();
+    const value = unquoteYamlScalar(rawValue);
+    if (key === "gallery") {
+      metadata.gallery = value === "true" || value === true;
+    } else if (["category", "name", "description", "preview"].includes(key)) {
+      metadata[key] = String(value);
+    }
   }
+  return metadata;
+}
+
+function unquoteYamlScalar(value) {
+  if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+    return value.slice(1, -1);
+  }
+  return value;
 }
 
 function replaceGeneratedRegion(source, [start, end], content) {
@@ -228,7 +318,7 @@ function renderProjectTable(repos) {
 
 function renderThemeGallery(repos) {
   if (repos.length === 0) {
-    return "_No repositories currently match this theme gallery topic._";
+    return "_No repositories currently match this theme gallery category._";
   }
 
   const rows = [];
@@ -245,7 +335,8 @@ function renderThemeGallery(repos) {
 }
 
 function renderThemeCell(repo) {
-  const displayName = themeDisplayName(repo.name);
+  const metadata = repo.themeMetadata || {};
+  const displayName = metadata.name || themeDisplayName(repo.name);
   const repoUrl = `https://github.com/${owner}/${repo.name}`;
   const previewUrl = rawPreviewUrl(repo);
   const alt = `${displayName} Theme Preview`;
@@ -257,6 +348,7 @@ function renderThemeCell(repo) {
     "      </a>",
     "      <br />",
     `      <strong><a href="${htmlAttr(repoUrl)}">${htmlText(displayName)}</a></strong>`,
+    ...(metadata.description ? ["      <br />", `      <em>${htmlText(metadata.description)}</em>`] : []),
     "      <br />",
     `      <img alt="Stars" src="https://img.shields.io/github/stars/${owner}/${repo.name}?style=flat-square" />`,
     `      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/${owner}/${repo.name}?style=flat-square" />`,
@@ -281,19 +373,27 @@ function sortRepos(repos, seededOrder = new Map()) {
 }
 
 function isProjectRepo(repo) {
-  return seededProjects.includes(repo.name) || (hasTopic(repo, topics.project) && !isThemeRepo(repo));
+  return seededProjects.includes(repo.name) || hasTopic(repo, topics.project);
 }
 
-function isThemeRepo(repo) {
-  return hasTopic(repo, topics.theme) || seededProductivityThemes.includes(repo.name) || seededNoveltyThemes.includes(repo.name);
+function isSeededTheme(repo) {
+  return seededProductivityThemes.includes(repo.name) || seededNoveltyThemes.includes(repo.name);
 }
 
-function isProductivityTheme(repo) {
-  return hasTopic(repo, topics.productivity) || seededProductivityThemes.includes(repo.name);
+function legacySeededThemeMetadata(repo) {
+  return {
+    gallery: true,
+    category: seededNoveltyThemes.includes(repo.name) ? "novelty" : "productivity",
+  };
 }
 
-function isNoveltyTheme(repo) {
-  return hasTopic(repo, topics.novelty) || seededNoveltyThemes.includes(repo.name);
+function themeCategory(repo) {
+  const category = repo.themeMetadata?.category || "productivity";
+  return isValidThemeCategory(category) ? category : "productivity";
+}
+
+function isValidThemeCategory(category) {
+  return category === "productivity" || category === "novelty";
 }
 
 function hasTopic(repo, topic) {
@@ -301,7 +401,12 @@ function hasTopic(repo, topic) {
 }
 
 function rawPreviewUrl(repo) {
-  return `https://raw.githubusercontent.com/${owner}/${repo.name}/${repo.default_branch}/preview.png`;
+  return rawRepoFileUrl(repo, repo.themeMetadata?.preview || "preview.png");
+}
+
+function rawRepoFileUrl(repo, path) {
+  const normalizedPath = String(path).replace(/^\/+/, "");
+  return `https://raw.githubusercontent.com/${owner}/${repo.name}/${repo.default_branch}/${normalizedPath}`;
 }
 
 function themeDisplayName(repoName) {
@@ -350,7 +455,16 @@ function htmlText(value) {
     .replace(/>/g, "&gt;");
 }
 
-main().catch((error) => {
-  console.error(error.message);
-  process.exit(1);
-});
+const isCli = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+if (isCli) {
+  main().catch((error) => {
+    console.error(error.message);
+    process.exit(1);
+  });
+}
+
+export {
+  discoverThemeGalleryRepos,
+  isThemeGalleryRepo,
+  parseThemeGalleryMetadata,
+};
