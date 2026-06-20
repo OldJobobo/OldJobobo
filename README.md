@@ -117,6 +117,7 @@ If you are new to my work, these are the best places to start:
 
 ## Featured projects
 
+<!-- profile:projects:start -->
 | Repository | Status | Description | Language |
 |------------|--------|-------------|----------|
 | [wayflipper](https://github.com/OldJobobo/wayflipper) | Active | Switches Waybar themes fast for users managing multiple visual setups. | Shell |
@@ -129,6 +130,7 @@ If you are new to my work, these are the best places to start:
 | [aether](https://github.com/OldJobobo/aether) | Active | Tooling for creating Omarchy themes more quickly. | Go |
 | [collago](https://github.com/OldJobobo/collago) | Active | Declarative collage wallpaper generator. | Go |
 | [omapal](https://github.com/OldJobobo/omapal) | Active | Theme coloring tool for Omarchy themes. | Python |
+<!-- profile:projects:end -->
 
 ### More Linux desktop tools
 

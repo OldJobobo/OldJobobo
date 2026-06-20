@@ -177,17 +177,18 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
 
 ### Productivity themes
 
+<!-- themes:productivity:start -->
 <table width="100%">
   <tr>
     <td width="50%" valign="top" align="center">
-      <a href="https://github.com/OldJobobo/omarchy-01-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-01-theme/master/preview.png" alt="01 Theme Preview" width="100%" />
+      <a href="https://github.com/OldJobobo/omarchy-the-navigator-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-the-navigator-theme/master/preview.png" alt="The Navigator Theme Preview" width="100%" />
       </a>
       <br />
-      <strong><a href="https://github.com/OldJobobo/omarchy-01-theme">01</a></strong>
+      <strong><a href="https://github.com/OldJobobo/omarchy-the-navigator-theme">The Navigator</a></strong>
       <br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-01-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-01-theme?style=flat-square" />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-the-navigator-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-the-navigator-theme?style=flat-square" />
     </td>
     <td width="50%" valign="top" align="center">
       <a href="https://github.com/OldJobobo/omarchy-biscuit-de-mar-dark-theme">
@@ -377,9 +378,11 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
     </td>
   </tr>
 </table>
+<!-- themes:productivity:end -->
 
 ### Novelty themes
 
+<!-- themes:novelty:start -->
 <table width="100%">
   <tr>
     <td width="50%" valign="top" align="center">
@@ -481,14 +484,14 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-watchmen-theme?style=flat-square" />
     </td>
     <td width="50%" valign="top" align="center">
-      <a href="https://github.com/OldJobobo/omarchy-the-navigator-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-the-navigator-theme/master/preview.png" alt="The Navigator Theme Preview" width="100%" />
+      <a href="https://github.com/OldJobobo/omarchy-01-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-01-theme/master/preview.png" alt="01 Theme Preview" width="100%" />
       </a>
       <br />
-      <strong><a href="https://github.com/OldJobobo/omarchy-the-navigator-theme">The Navigator</a></strong>
+      <strong><a href="https://github.com/OldJobobo/omarchy-01-theme">01</a></strong>
       <br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-the-navigator-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-the-navigator-theme?style=flat-square" />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-01-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-01-theme?style=flat-square" />
     </td>
   </tr>
   <tr>
@@ -536,9 +539,10 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
     </td>
   </tr>
 </table>
+<!-- themes:novelty:end -->
 
 ---
 
 ## Gallery maintenance
 
-Preview images intentionally use each theme repository's `master` branch and `preview.png` file. If a theme repository changes its default branch or preview asset path, update the matching gallery entry and confirm the image renders in GitHub preview.
+Generated gallery images use each theme repository's default branch and `preview.png` file. Add `omarchy-theme` plus either `theme-productivity` or `theme-novelty` topics to publish a theme into this gallery.

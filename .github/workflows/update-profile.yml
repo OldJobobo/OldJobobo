@@ -1,0 +1,46 @@
+name: Update profile
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "24 13 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Generate profile Markdown
+        run: node scripts/generate-profile.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Open update pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: automation/update-profile
+          delete-branch: true
+          title: Update generated profile sections
+          commit-message: Update generated profile sections
+          body: |
+            Automated profile refresh from GitHub repository topics.
+
+            Source topics:
+            - `omarchy-theme`
+            - `profile-project`
+            - `profile-featured`
+            - `theme-productivity`
+            - `theme-novelty`
