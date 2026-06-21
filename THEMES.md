@@ -538,6 +538,50 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-dune-messiah-theme?style=flat-square" />
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-the-black-pharaoh-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-the-black-pharaoh-theme/master/preview.png" alt="The Black Pharaoh Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-the-black-pharaoh-theme">The Black Pharaoh</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-the-black-pharaoh-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-the-black-pharaoh-theme?style=flat-square" />
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-scooby-doo-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-scooby-doo-theme/master/preview.png" alt="Scooby Doo Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-scooby-doo-theme">Scooby Doo</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-scooby-doo-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-scooby-doo-theme?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-pinup-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-pinup-theme/master/preview.png" alt="Pinup Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-pinup-theme">Pinup</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-pinup-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-pinup-theme?style=flat-square" />
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-eldritch-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-eldritch-theme/master/preview.png" alt="Eldritch Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-eldritch-theme">Eldritch</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-eldritch-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-eldritch-theme?style=flat-square" />
+    </td>
+  </tr>
 </table>
 <!-- themes:novelty:end -->
 
