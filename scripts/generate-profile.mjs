@@ -71,6 +71,12 @@ const projectOrder = new Map(seededProjects.map((name, index) => [name, index]))
 const productivityOrder = new Map(seededProductivityThemes.map((name, index) => [name, index]));
 const noveltyOrder = new Map(seededNoveltyThemes.map((name, index) => [name, index]));
 
+const excludedThemeRepos = new Set([
+  // GitHub does not currently report this repository as a fork, but it is
+  // upstream-derived and should not appear in the personal theme gallery.
+  "omarchy-eldritch-theme",
+]);
+
 const themeNameOverrides = new Map([
   ["omarchy-biscuit-de-mar-dark-theme", "Biscuit de Mar Dark"],
   ["omarchy-phosphor-os-theme", "Phosphor OS"],
@@ -252,6 +258,7 @@ function isThemeGalleryRepo(repo, { hasPreview = false, metadata = {}, requireFi
 }
 
 function themeGalleryBasicSkipReason(repo) {
+  if (excludedThemeRepos.has(repo.name)) return "manually excluded";
   if (!/^omarchy-.+-theme$/.test(repo.name)) return "name does not match omarchy-<name>-theme";
   if (repo.private) return "private";
   if (repo.archived) return "archived";
