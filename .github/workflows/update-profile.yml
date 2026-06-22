@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   update-profile:
@@ -15,10 +14,10 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: "22"
 
@@ -30,23 +29,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Open update pull request
-        uses: peter-evans/create-pull-request@v6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: automation/update-profile
-          delete-branch: true
-          title: Update generated profile sections
-          commit-message: Update generated profile sections
-          body: |
-            Automated profile refresh from GitHub repository metadata.
+      - name: Commit generated changes
+        run: |
+          if git diff --quiet -- README.md THEMES.md; then
+            echo "No generated profile changes."
+            exit 0
+          fi
 
-            Theme gallery source:
-            - public, non-fork repos named `omarchy-<name>-theme`
-            - root `preview.png`
-            - root `.omarchy-theme.yml` with `gallery: true`
-            - `category: productivity` or `category: novelty`
-
-            Project source:
-            - `profile-project` topic
-            - seeded profile project list
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md THEMES.md
+          git commit -m "Update generated profile sections"
+          git push
