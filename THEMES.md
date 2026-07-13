@@ -540,28 +540,6 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
   </tr>
   <tr>
     <td width="50%" valign="top" align="center">
-      <a href="https://github.com/OldJobobo/omarchy-noir-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-noir-theme/master/preview.png" alt="Noir Theme Preview" width="100%" />
-      </a>
-      <br />
-      <strong><a href="https://github.com/OldJobobo/omarchy-noir-theme">Noir</a></strong>
-      <br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-noir-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-noir-theme?style=flat-square" />
-    </td>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/OldJobobo/omarchy-the-black-pharaoh-theme">
-        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-the-black-pharaoh-theme/master/preview.png" alt="The Black Pharaoh Theme Preview" width="100%" />
-      </a>
-      <br />
-      <strong><a href="https://github.com/OldJobobo/omarchy-the-black-pharaoh-theme">The Black Pharaoh</a></strong>
-      <br />
-      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-the-black-pharaoh-theme?style=flat-square" />
-      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-the-black-pharaoh-theme?style=flat-square" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" align="center">
       <a href="https://github.com/OldJobobo/omarchy-scooby-doo-theme">
         <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-scooby-doo-theme/master/preview.png" alt="Scooby Doo Theme Preview" width="100%" />
       </a>
@@ -580,6 +558,28 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
       <br />
       <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-pinup-theme?style=flat-square" />
       <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-pinup-theme?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-the-black-pharaoh-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-the-black-pharaoh-theme/master/preview.png" alt="The Black Pharaoh Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-the-black-pharaoh-theme">The Black Pharaoh</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-the-black-pharaoh-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-the-black-pharaoh-theme?style=flat-square" />
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/OldJobobo/omarchy-noir-theme">
+        <img src="https://raw.githubusercontent.com/OldJobobo/omarchy-noir-theme/master/preview.png" alt="Noir Theme Preview" width="100%" />
+      </a>
+      <br />
+      <strong><a href="https://github.com/OldJobobo/omarchy-noir-theme">Noir</a></strong>
+      <br />
+      <img alt="Stars" src="https://img.shields.io/github/stars/OldJobobo/omarchy-noir-theme?style=flat-square" />
+      <img alt="Last Commit" src="https://img.shields.io/github/last-commit/OldJobobo/omarchy-noir-theme?style=flat-square" />
     </td>
   </tr>
 </table>
