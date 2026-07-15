@@ -129,7 +129,6 @@ If you are new to my work, these are the best places to start:
 | [based](https://github.com/OldJobobo/based) | Active | Base16/Base24 colorscheme editor for theme authoring. | Rust |
 | [aether](https://github.com/OldJobobo/aether) | Active | Tooling for creating Omarchy themes more quickly. | Go |
 | [collago](https://github.com/OldJobobo/collago) | Active | Declarative collage wallpaper generator. | Go |
-| [omapal](https://github.com/OldJobobo/omapal) | Active | Theme coloring tool for Omarchy themes. | Python |
 <!-- profile:projects:end -->
 
 ### More Linux desktop tools
