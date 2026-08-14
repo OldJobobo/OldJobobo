@@ -181,6 +181,19 @@ For feature requests, describe the user problem first, then the proposed behavio
 
 ---
 
+## Supporters
+
+Thank you to these public Ko-fi supporters:
+
+- DHH
+- HANCORE
+- perfekt
+- Straight Classy
+- twodogs
+- SqdnGunny
+
+---
+
 ## Contact and support
 
 - For project questions and bugs: open an issue in the relevant repository.
