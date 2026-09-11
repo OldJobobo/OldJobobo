@@ -13,20 +13,20 @@ const skipThemeMetadataCheck = process.env.SKIP_THEME_METADATA_CHECK === "1";
 const topics = {
   project: "profile-project",
   featured: "profile-featured",
-  archived: "profile-archived",
 };
 
+// These projects already have manually maintained illustrated features.
+const featuredProjects = new Set(["splinterm", "thpm"]);
+const retiredProjects = new Set(["theme-manager-plus"]);
 const seededProjects = [
-  "wayflipper",
-  "theme-manager-plus",
-  "dotfiles",
-  "oldjobobo-custom-omarchy-templates",
-  "make-colors",
-  "jobowalls",
+  "jobo-themes",
   "based",
-  "aether",
+  "jobowalls",
   "collago",
-  "omapal",
+  "arcana",
+  "omatype",
+  "pi-skill-manager",
+  "lacuna-shell",
 ];
 
 const seededProductivityThemes = [
@@ -82,17 +82,11 @@ const themeNameOverrides = new Map([
   ["omarchy-phosphor-os-theme", "Phosphor OS"],
 ]);
 
-const projectMetadataOverrides = new Map([
-  ["wayflipper", { description: "Switches Waybar themes fast for users managing multiple visual setups.", language: "Shell" }],
-  ["theme-manager-plus", { description: "Alternative Omarchy theme manager for streamlined desktop theming workflows.", language: "Shell" }],
-  ["dotfiles", { description: "Personal Linux desktop and Omarchy dotfiles for reproducible setup and config workflows.", language: "Shell" }],
-  ["oldjobobo-custom-omarchy-templates", { description: "Custom Omarchy templates for faster personal theme scaffolding and customization.", language: "Shell" }],
-  ["make-colors", { description: "Generates `colors.toml` files for existing Omarchy themes.", language: "Shell" }],
-  ["jobowalls", { description: "Alternative wallpaper picker and manager for Omarchy.", language: "Rust" }],
-  ["based", { description: "Base16/Base24 colorscheme editor for theme authoring.", language: "Rust" }],
-  ["aether", { description: "Tooling for creating Omarchy themes more quickly.", language: "Go" }],
-  ["collago", { description: "Declarative collage wallpaper generator.", language: "Go" }],
-  ["omapal", { description: "Theme coloring tool for Omarchy themes.", language: "Python" }],
+// Short summaries where extra context is useful; other descriptions come from GitHub.
+// Do not override language or infer maintenance status from recent commits.
+const projectDescriptions = new Map([
+  ["jobo-themes", "Catalog-backed installer for complete OldJobobo Omarchy themes, including executable configurations. Install only themes you trust."],
+  ["based", "Base16/Base24 colorscheme editor."],
 ]);
 
 const markers = {
@@ -103,19 +97,21 @@ const markers = {
 
 async function main() {
   const repos = await getAllRepos();
-  const publicRepos = repos.filter((repo) => !repo.private && (!repo.archived || hasTopic(repo, topics.archived)));
+  const publicRepos = repos.filter((repo) => !repo.private && !repo.archived && !repo.disabled);
   const themeDiscovery = await discoverThemeGalleryRepos(publicRepos, {
     fileExists: githubFileExists,
     readTextFile: githubReadTextFile,
     requireFiles: !skipThemeMetadataCheck,
+    checkPreviews: !skipPreviewCheck,
   });
   const projectRepos = publicRepos.filter(isProjectRepo);
 
-  if (!skipPreviewCheck && themeDiscovery.skipped.some((item) => item.reason === "missing preview.png")) {
-    const missing = themeDiscovery.skipped
-      .filter((item) => item.reason === "missing preview.png")
-      .map((item) => `${item.repo.name}: ${rawPreviewUrl(item.repo)}`);
-    throw new Error(`Theme preview.png check failed:\n${missing.join("\n")}`);
+  for (const { repo, reason } of themeDiscovery.skipped) {
+    if (!themeGalleryBasicSkipReason(repo)) console.warn(`Gallery skipped ${repo.name}: ${reason}`);
+  }
+  const missing = themeDiscovery.skipped.filter((item) => item.reason.startsWith("missing preview:"));
+  if (missing.length) {
+    throw new Error(`Theme preview check failed:\n${missing.map(({ repo, reason }) => `${repo.name}: ${reason}`).join("\n")}`);
   }
 
   const nextReadme = replaceGeneratedRegion(
@@ -186,13 +182,17 @@ function githubHeaders() {
 
 async function githubFileExists(repo, path) {
   const response = await fetch(rawRepoFileUrl(repo, path), { method: "HEAD", headers: { "User-Agent": "oldjobobo-profile-generator" } });
-  return response.ok;
+  if (response.status === 404) return false;
+  if (!response.ok) throw new Error(`Unable to check ${path} from ${repo.name}: ${response.status} ${response.statusText}`);
+  return true;
 }
 
 async function githubReadTextFile(repo, path) {
   const response = await fetch(rawRepoFileUrl(repo, path), { headers: { "User-Agent": "oldjobobo-profile-generator" } });
   if (!response.ok) {
-    throw new Error(`Unable to read ${path} from ${repo.name}: ${response.status} ${response.statusText}`);
+    const error = new Error(`Unable to read ${path} from ${repo.name}: ${response.status} ${response.statusText}`);
+    error.status = response.status;
+    throw error;
   }
   return response.text();
 }
@@ -212,18 +212,16 @@ async function discoverThemeGalleryRepos(repos, options = {}) {
       continue;
     }
 
-    if (requireFiles && !(await fileExists(repo, "preview.png"))) {
-      skipped.push({ repo, reason: "missing preview.png" });
-      continue;
-    }
-
     let metadata = {};
     if (requireFiles) {
       let source = "";
       try {
         source = await readTextFile(repo, ".omarchy-theme.yml");
         metadata = parseThemeGalleryMetadata(source);
-      } catch {
+      } catch (error) {
+        // Only a genuinely absent marker may use the legacy fallback.
+        // Network/auth/server failures must not silently remove gallery entries.
+        if (error.status !== 404) throw error;
         if (isSeededTheme(repo)) {
           metadata = legacySeededThemeMetadata(repo);
         } else {
@@ -239,6 +237,11 @@ async function discoverThemeGalleryRepos(repos, options = {}) {
     }
 
     const enrichedRepo = { ...repo, themeMetadata: metadata };
+    const previewPath = metadata.preview || "preview.png";
+    if (options.checkPreviews !== false && !(await fileExists(repo, previewPath))) {
+      skipped.push({ repo: enrichedRepo, reason: `missing preview: ${previewPath}` });
+      continue;
+    }
     if (themeCategory(enrichedRepo) === "novelty") {
       novelty.push(enrichedRepo);
     } else {
@@ -306,21 +309,25 @@ function replaceGeneratedRegion(source, [start, end], content) {
 
 function renderProjectTable(repos) {
   if (repos.length === 0) {
-    return "_No repositories currently match the `profile-project` topic._";
+    return "_No public repositories currently match this selection._";
   }
 
-  const rows = repos.map((repo) => {
-    const metadata = projectMetadataOverrides.get(repo.name) || {};
-    const description = escapeMarkdownCell(metadata.description || repo.description || "No description provided.");
-    const language = escapeMarkdownCell(metadata.language || repo.language || "Mixed");
-    return `| [${escapeMarkdownCell(repo.name)}](${repo.html_url}) | Active | ${description} | ${language} |`;
-  });
-
-  return [
-    "| Repository | Status | Description | Language |",
-    "|------------|--------|-------------|----------|",
-    ...rows,
-  ].join("\n");
+  const rows = [];
+  for (let index = 0; index < repos.length; index += 2) {
+    rows.push("  <tr>");
+    for (const repo of repos.slice(index, index + 2)) {
+      const description = htmlText(projectDescriptions.get(repo.name) || repo.description || "No description provided.");
+      rows.push(
+        '    <td width="50%" valign="top">',
+        `      <h3><a href="${htmlAttr(repo.html_url)}">${htmlText(repo.name)} ↗</a></h3>`,
+        `      <p>${description}</p>`,
+        "    </td>",
+      );
+    }
+    if (!repos[index + 1]) rows.push('    <td width="50%" valign="top"></td>');
+    rows.push("  </tr>");
+  }
+  return ['<table width="100%">', ...rows, "</table>"].join("\n");
 }
 
 function renderThemeGallery(repos) {
@@ -380,7 +387,9 @@ function sortRepos(repos, seededOrder = new Map()) {
 }
 
 function isProjectRepo(repo) {
-  return seededProjects.includes(repo.name) || hasTopic(repo, topics.project);
+  return !repo.private && !repo.archived && !repo.disabled && !repo.fork
+    && !featuredProjects.has(repo.name) && !retiredProjects.has(repo.name)
+    && (seededProjects.includes(repo.name) || hasTopic(repo, topics.project));
 }
 
 function isSeededTheme(repo) {
@@ -447,10 +456,6 @@ function titleCase(value) {
     .join("");
 }
 
-function escapeMarkdownCell(value) {
-  return String(value).replace(/\|/g, "\\|").replace(/\r?\n/g, " ").trim();
-}
-
 function htmlAttr(value) {
   return htmlText(value).replace(/"/g, "&quot;");
 }
@@ -474,4 +479,8 @@ export {
   discoverThemeGalleryRepos,
   isThemeGalleryRepo,
   parseThemeGalleryMetadata,
+  isProjectRepo,
+  renderProjectTable,
+  renderThemeGallery,
+  replaceGeneratedRegion,
 };

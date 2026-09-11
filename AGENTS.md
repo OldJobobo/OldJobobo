@@ -2,14 +2,21 @@
 
 ## Project Structure & Module Organization
 This repository is documentation-first and currently contains two primary Markdown documents:
-- `README.md`: profile-facing overview, featured projects, and contributor contact guidance.
+- `README.md`: profile-facing overview, selected tools, themes, and supporters.
 - `THEMES.md`: visual Omarchy theme gallery with external repository links and preview images.
+- `scripts/generate-profile.mjs`: GitHub-backed project and gallery generation.
+- `scripts/generate-profile.test.mjs`: dependency-free Node.js tests.
+- `docs/profile-maintenance.md`: selection rules, generator commands, and manual checks.
 
 Keep new content in Markdown unless there is a clear need for scripts/assets. If you add files, group them by purpose (for example, `docs/`, `assets/`, `scripts/`) and keep paths short and descriptive.
 
 ## Build, Test, and Development Commands
 There is no compile/build pipeline in this repository. Use lightweight content checks before opening a PR:
-- `rg --files`: quick inventory of tracked files.
+- `rg --files`: quick inventory of files.
+- `node --test scripts/generate-profile.test.mjs`: run generator tests (Node.js 22+).
+- `node scripts/generate-profile.mjs`: regenerate project tables and galleries using GitHub.
+- `node scripts/generate-profile.mjs --check`: verify generated content without writing.
+- `git diff --check`: catch whitespace errors.
 - `markdownlint "**/*.md"` (if installed): enforce Markdown consistency.
 - `git diff -- README.md THEMES.md`: verify only intended documentation edits.
 
@@ -23,7 +30,7 @@ If you introduce tooling, document exact setup and commands in this file and in 
 - Preserve existing HTML-in-Markdown patterns where already used for gallery/table layout.
 
 ## Testing Guidelines
-Validation is manual:
+Run the generator tests and check generated content, then validate rendering manually:
 - Confirm links and image URLs render correctly in GitHub preview.
 - Check table/layout changes on desktop and mobile-width preview.
 - Re-open edited files to catch broken Markdown structure.

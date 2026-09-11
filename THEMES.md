@@ -637,11 +637,15 @@ This is my personal Omarchy theme gallery: a curated collection of themes I've d
 
 ## Gallery maintenance
 
-Generated gallery images use each theme repository's default branch and `preview.png` file. New themes are discovered from public, non-fork repositories named `omarchy-<name>-theme` that include a root `.omarchy-theme.yml` marker:
+The daily workflow generates previews from each repository's default branch. New themes must be public, non-fork repositories named `omarchy-<name>-theme` with a root `.omarchy-theme.yml` marker:
 
 ```yaml
 gallery: true
 category: productivity
 ```
 
-Use `category: novelty` for novelty themes. Optional fields include `name`, `description`, and `preview` when the display name or preview path needs an override.
+Use `category: novelty` for novelty themes. Optional fields are `name`, `description`, and `preview`. The preview defaults to `preview.png`; a custom `preview` path is checked before inclusion. Some older themes have an explicit fallback category in the generator for missing markers. An explicit `gallery: false` still excludes them.
+
+Missing markers are reported in the workflow log. Missing previews for opted-in themes fail generation rather than silently removing entries. Network or server errors also stop generation.
+
+See [profile maintenance](docs/profile-maintenance.md) for local commands and project selection rules.

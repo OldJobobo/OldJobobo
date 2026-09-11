@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="176" viewBox="0 0 1120 176" role="img" aria-labelledby="title">
+  <title id="title">Built for my use, shared for yours.</title>
+  <style>@media(max-width:600px){.tagline{font-size:64px}}</style>
+  <path d="M0 1H1120" stroke="#57898a"/><path d="M0 1H112" stroke="#faa968" stroke-width="3"/>
+  <text class="tagline" x="0" y="73" fill="#f6dcac" font-family="'DejaVu Sans',Arial,sans-serif" font-size="36" letter-spacing="-1">Built for my use,</text>
+  <text class="tagline" x="0" y="126" fill="#faa968" font-family="'DejaVu Sans',Arial,sans-serif" font-size="36" letter-spacing="-1">shared for yours.</text>
+  <text x="1120" y="130" text-anchor="end" fill="#f6dcac" font-family="'DejaVu Sans Mono',monospace" font-size="18">OldJobobo</text>
+</svg>
