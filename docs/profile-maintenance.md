@@ -4,7 +4,7 @@
 
 ## Visual layout
 
-The profile uses the Retro 82 palette: deep navy (`#00172e`), orange (`#faa968`), teal (`#028391`), and cream (`#f6dcac`). Artwork uses the theme's other ANSI and semantic colors for secondary surfaces and details; light-mode dividers use darker accents for readability. The original Splinterm logo keeps its own colors. GitHub controls ordinary text/link colors, and Shields controls live badge lettering. Featured artwork, descriptions, live release/star badges, and repository links are grouped in full-width HTML tables. Keep descriptions and links as real HTML text rather than baking them into images.
+The profile uses the Last Call palette: deep green-charcoal (`#0b1d20`), turquoise (`#00c6c2`), muted blue-gray (`#94b3b5`), and pale foregrounds (`#e0f5f2`). Artwork uses the theme's other ANSI and semantic colors for secondary surfaces and details; light-mode dividers use darker accents for readability. The original Splinterm logo keeps its own colors. GitHub controls ordinary text/link colors, and Shields controls live badge lettering. Featured artwork, descriptions, live release/star badges, and repository links are grouped in full-width HTML tables. Keep descriptions and links as real HTML text rather than baking them into images.
 
 - `assets/splinterm-logo.svg`: original Splinterm head-logo paths and colors from `dist/icons/com.oldjobobo.splinterm.svg` at upstream revision `dadbe2709fd84e0376b32e2befec9399c0efd7ff`, with editor metadata removed. The card embeds these vectors to remain self-contained; update both copies together.
 - `assets/*-preview.svg`: matching 1120 × 560 product illustrations. Status labels are manually maintained; releases and star counts remain live Shields badges in the README.

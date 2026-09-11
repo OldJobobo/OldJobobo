@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1120" height="56" viewBox="0 0 1120 56" role="img" aria-labelledby="title">
   <title id="title">More Projects</title>
   <style>text{font-size:24px}@media(max-width:600px){text{font-size:36px}}</style>
-  <rect x="0" y="10" width="6" height="32" fill="#faa968"/>
-  <text x="24" y="35" fill="#f6dcac" font-family="'DejaVu Sans Mono',monospace" font-weight="600" letter-spacing="2">MORE PROJECTS</text>
+  <rect x="0" y="10" width="6" height="32" fill="#00c6c2"/>
+  <text x="24" y="35" fill="#e0f5f2" font-family="'DejaVu Sans Mono',monospace" font-weight="600" letter-spacing="2">MORE PROJECTS</text>
 </svg>

@@ -4,77 +4,77 @@
   <style>@media(max-width:600px){.project-name{font-size:96px;transform:translateY(15px)}.project-subtitle{font-size:32px;transform:translateY(24px)}}</style>
   <defs>
     <linearGradient id="surface" x2="1" y2="1">
-      <stop stop-color="#00172e"/>
-      <stop offset="1" stop-color="#001123"/>
+      <stop stop-color="#0b1d20"/>
+      <stop offset="1" stop-color="#030e10"/>
     </linearGradient>
     <linearGradient id="palette-flow" x2="1">
-      <stop stop-color="#faa968"/>
-      <stop offset="1" stop-color="#35a2a7"/>
+      <stop stop-color="#00c6c2"/>
+      <stop offset="1" stop-color="#668ca9"/>
     </linearGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#57898a" stroke-opacity="0.045"/>
+      <path d="M40 0H0V40" fill="none" stroke="#42686f" stroke-opacity="0.045"/>
     </pattern>
   </defs>
   <rect width="1120" height="560" rx="12" fill="url(#surface)"/>
   <rect width="1120" height="560" rx="12" fill="url(#grid)"/>
   <g font-family="'DejaVu Sans', Arial, sans-serif">
-    <text class="project-name" x="153" y="78" fill="#f6dcac" font-size="54" font-weight="700" letter-spacing="-2">THPM</text>
-    <text class="project-subtitle" x="155" y="113" fill="#8cbfb8" font-size="23">Theme Hook Plugin Manager</text>
-    <rect x="888" y="55" width="166" height="38" rx="2" fill="#001123" stroke="#57898a"/>
-    <text x="971" y="81" text-anchor="middle" fill="#a3ccc6" font-family="'DejaVu Sans Mono', monospace" font-size="19">OMARCHY 4.x</text>
-    <g transform="translate(64 49) scale(.46)" fill="none" stroke="#35a2a7" stroke-width="5">
+    <text class="project-name" x="153" y="78" fill="#e0f5f2" font-size="54" font-weight="700" letter-spacing="-2">THPM</text>
+    <text class="project-subtitle" x="155" y="113" fill="#94b3b5" font-size="23">Theme Hook Plugin Manager</text>
+    <rect x="888" y="55" width="166" height="38" rx="2" fill="#030e10" stroke="#42686f"/>
+    <text x="971" y="81" text-anchor="middle" fill="#a9c2c1" font-family="'DejaVu Sans Mono', monospace" font-size="19">OMARCHY 4.x</text>
+    <g transform="translate(64 49) scale(.46)" fill="none" stroke="#668ca9" stroke-width="5">
       <rect width="140" height="108" rx="8"/>
       <path d="M22 29H118M22 54H118M22 79H118"/>
-      <path d="M47 18V40M92 43V65M65 68V90" stroke="#001123" stroke-width="15"/>
+      <path d="M47 18V40M92 43V65M65 68V90" stroke="#030e10" stroke-width="15"/>
       <path d="M47 18V40M92 43V65M65 68V90" stroke-width="6"/>
     </g>
     <g transform="translate(0 -105)">
-    <text x="64" y="287" fill="#8cbfb8" font-size="23">Theme colors</text>
-    <text x="419" y="287" fill="#8cbfb8" font-size="23">Templates</text>
-    <text x="777" y="287" fill="#8cbfb8" font-size="23">Enabled integrations</text>
+    <text x="64" y="287" fill="#94b3b5" font-size="23">Theme colors</text>
+    <text x="419" y="287" fill="#94b3b5" font-size="23">Templates</text>
+    <text x="777" y="287" fill="#94b3b5" font-size="23">Enabled integrations</text>
     <!-- Color channels converge on templates, then branch to application output. -->
     <g fill="none" stroke-width="4">
-      <path d="M310 331H350Q374 331 374 355V409H418" stroke="#faa968"/>
-      <path d="M310 371H340Q354 371 354 385V409H418" stroke="#35a2a7"/>
-      <path d="M310 411H418" stroke="#e97b3c"/>
-      <path d="M310 451H340Q354 451 354 437V413H418" stroke="#f85525"/>
-      <path d="M310 491H350Q374 491 374 467V413H418" stroke="#f6dcac"/>
+      <path d="M310 331H350Q374 331 374 355V409H418" stroke="#00c6c2"/>
+      <path d="M310 371H340Q354 371 354 385V409H418" stroke="#668ca9"/>
+      <path d="M310 411H418" stroke="#b79a54"/>
+      <path d="M310 451H340Q354 451 354 437V413H418" stroke="#9c8499"/>
+      <path d="M310 491H350Q374 491 374 467V413H418" stroke="#e0f5f2"/>
       <path d="M668 411H720V360H776M720 411V469H776" stroke="url(#palette-flow)"/>
     </g>
-    <rect x="64" y="310" width="246" height="203" rx="10" fill="#000c17" stroke="#57898a" stroke-width="2"/>
+    <rect x="64" y="310" width="246" height="203" rx="10" fill="#010506" stroke="#42686f" stroke-width="2"/>
     <g stroke-linecap="round" stroke-width="16">
-      <path d="M92 332H155" stroke="#faa968"/>
-      <path d="M92 372H155" stroke="#35a2a7"/>
-      <path d="M92 412H155" stroke="#e97b3c"/>
-      <path d="M92 452H155" stroke="#f85525"/>
-      <path d="M92 492H155" stroke="#f6dcac"/>
+      <path d="M92 332H155" stroke="#00c6c2"/>
+      <path d="M92 372H155" stroke="#668ca9"/>
+      <path d="M92 412H155" stroke="#b79a54"/>
+      <path d="M92 452H155" stroke="#9c8499"/>
+      <path d="M92 492H155" stroke="#e0f5f2"/>
     </g>
-    <g fill="#8cbfb8" font-family="'DejaVu Sans Mono', monospace" font-size="23">
+    <g fill="#94b3b5" font-family="'DejaVu Sans Mono', monospace" font-size="23">
       <text x="183" y="340">teal</text>
       <text x="183" y="380">blue</text>
       <text x="183" y="420">amber</text>
       <text x="183" y="460">violet</text>
       <text x="183" y="500">text</text>
     </g>
-    <rect x="418" y="310" width="250" height="203" rx="10" fill="#001123" stroke="#3f8f8a" stroke-width="2"/>
-    <text x="445" y="363" fill="#f6dcac" font-family="'DejaVu Sans Mono', monospace" font-size="32">{{ color }}</text>
-    <path d="M446 391H640M446 418H604M446 445H621" stroke="#57898a" stroke-width="7"/>
-    <text x="445" y="490" fill="#8cbfb8" font-size="23">Omarchy renders</text>
-    <rect x="777" y="310" width="277" height="94" rx="10" fill="#000c17" stroke="#57898a" stroke-width="2"/>
-    <text x="802" y="348" fill="#f6dcac" font-family="'DejaVu Sans Mono', monospace" font-size="26">fzf</text>
-    <path d="M804 375H908" stroke="#faa968" stroke-width="7"/>
-    <path d="M921 375H1026" stroke="#e97b3c" stroke-width="7"/>
-    <rect x="777" y="419" width="277" height="94" rx="10" fill="#000c17" stroke="#57898a" stroke-width="2"/>
-    <text x="802" y="457" fill="#f6dcac" font-family="'DejaVu Sans Mono', monospace" font-size="26">zellij</text>
-    <path d="M804 484H908" stroke="#35a2a7" stroke-width="7"/>
-    <path d="M921 484H1026" stroke="#f85525" stroke-width="7"/>
-    <circle cx="720" cy="411" r="6" fill="#35a2a7"/>
-    <rect x="64" y="570" width="990" height="82" rx="8" fill="#00172e" stroke="#028391"/>
-    <text x="90" y="620" fill="#f6dcac" font-size="25">CLI</text>
-    <text x="172" y="620" fill="#f6dcac" font-size="25">TUI</text>
-    <text x="256" y="620" fill="#f6dcac" font-size="25">Shell panel</text>
-    <path d="M440 591V631" stroke="#57898a" stroke-width="2"/>
-    <text x="474" y="620" fill="#8cbfb8" font-size="25">Shared plugin state</text>
+    <rect x="418" y="310" width="250" height="203" rx="10" fill="#030e10" stroke="#42686f" stroke-width="2"/>
+    <text x="445" y="363" fill="#e0f5f2" font-family="'DejaVu Sans Mono', monospace" font-size="32">{{ color }}</text>
+    <path d="M446 391H640M446 418H604M446 445H621" stroke="#42686f" stroke-width="7"/>
+    <text x="445" y="490" fill="#94b3b5" font-size="23">Omarchy renders</text>
+    <rect x="777" y="310" width="277" height="94" rx="10" fill="#010506" stroke="#42686f" stroke-width="2"/>
+    <text x="802" y="348" fill="#e0f5f2" font-family="'DejaVu Sans Mono', monospace" font-size="26">fzf</text>
+    <path d="M804 375H908" stroke="#00c6c2" stroke-width="7"/>
+    <path d="M921 375H1026" stroke="#b79a54" stroke-width="7"/>
+    <rect x="777" y="419" width="277" height="94" rx="10" fill="#010506" stroke="#42686f" stroke-width="2"/>
+    <text x="802" y="457" fill="#e0f5f2" font-family="'DejaVu Sans Mono', monospace" font-size="26">zellij</text>
+    <path d="M804 484H908" stroke="#668ca9" stroke-width="7"/>
+    <path d="M921 484H1026" stroke="#9c8499" stroke-width="7"/>
+    <circle cx="720" cy="411" r="6" fill="#668ca9"/>
+    <rect x="64" y="570" width="990" height="82" rx="8" fill="#0b1d20" stroke="#1e4147"/>
+    <text x="90" y="620" fill="#e0f5f2" font-size="25">CLI</text>
+    <text x="172" y="620" fill="#e0f5f2" font-size="25">TUI</text>
+    <text x="256" y="620" fill="#e0f5f2" font-size="25">Shell panel</text>
+    <path d="M440 591V631" stroke="#42686f" stroke-width="2"/>
+    <text x="474" y="620" fill="#94b3b5" font-size="25">Shared plugin state</text>
     </g>
   </g>
 </svg>

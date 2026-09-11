@@ -289,16 +289,17 @@ test("section and footer artwork have accessible light and dark variants without
   }
 });
 
-test("profile artwork and banner use the approved Retro 82 palette", async () => {
+test("profile artwork and banner use the approved Last Call palette", async () => {
   const readme = await readFile(new URL('../README.md', import.meta.url), 'utf8');
-  assert.match(readme, /color=0:000C17,35:00172E,70:028391,100:E97B3C/);
-  assert.match(readme, /fontColor=F6DCAC/);
-  assert.doesNotMatch(readme, /labelColor=142431|color=27434B/);
+  assert.match(readme, /color=0:010506,35:0B1D20,70:1E4147,100:00C6C2/);
+  assert.match(readme, /fontColor=E0F5F2/);
+  assert.match(readme, /labelColor=030E10&color=0B1D20/);
+  assert.doesNotMatch(readme, /labelColor=142431|color=27434B|labelColor=001123|color=00172E/);
   for (const name of ['splinterm-preview', 'thpm-preview', 'section-featured-dark', 'section-themes-dark', 'section-projects-dark', 'footer-dark']) {
     const svg = await readFile(new URL(`../assets/${name}.svg`, import.meta.url), 'utf8');
-    assert.ok(svg.includes('#f6dcac'), `Missing cream foreground in ${name}`);
-    assert.ok(svg.includes('#faa968'), `Missing orange accent in ${name}`);
-    assert.doesNotMatch(svg, /#5bc0be|#79d0cb|#9bb8ea/i);
+    assert.ok(svg.includes('#e0f5f2'), `Missing pale foreground in ${name}`);
+    assert.ok(svg.includes('#00c6c2'), `Missing turquoise accent in ${name}`);
+    assert.doesNotMatch(svg, /#5bc0be|#79d0cb|#9bb8ea|#f6dcac|#faa968/i);
   }
 });
 

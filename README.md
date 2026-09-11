@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:000C17,35:00172E,70:028391,100:E97B3C&text=OldJobobo&fontColor=F6DCAC&fontSize=56&desc=Omarchy%20Themes%20%7C%20Linux%20Desktop%20Tooling&descAlignY=68" alt="OldJobobo profile banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:010506,35:0B1D20,70:1E4147,100:00C6C2&text=OldJobobo&fontColor=E0F5F2&fontSize=56&desc=Omarchy%20Themes%20%7C%20Linux%20Desktop%20Tooling&descAlignY=68" alt="OldJobobo profile banner" />
 </div>
 
 <p align="center">
-  <a href="https://github.com/OldJobobo?tab=followers"><img src="https://img.shields.io/github/followers/OldJobobo?style=for-the-badge&label=Followers&labelColor=001123&color=00172E" alt="GitHub followers" /></a>
-  <a href="https://github.com/OldJobobo?tab=repositories"><img src="https://img.shields.io/github/stars/OldJobobo?style=for-the-badge&label=Profile%20Stars&labelColor=001123&color=00172E" alt="GitHub stars" /></a>
-  <a href="THEMES.md"><img src="https://img.shields.io/badge/Full%20theme%20gallery-%E2%86%97-00172E?style=for-the-badge&labelColor=00172E" alt="Full theme gallery" /></a>
-  <a href="https://ko-fi.com/oldjobobo"><img src="https://img.shields.io/badge/Support-Ko--fi-00172E?style=for-the-badge&labelColor=001123" alt="Support on Ko-fi" /></a>
+  <a href="https://github.com/OldJobobo?tab=followers"><img src="https://img.shields.io/github/followers/OldJobobo?style=for-the-badge&label=Followers&labelColor=030E10&color=0B1D20" alt="GitHub followers" /></a>
+  <a href="https://github.com/OldJobobo?tab=repositories"><img src="https://img.shields.io/github/stars/OldJobobo?style=for-the-badge&label=Profile%20Stars&labelColor=030E10&color=0B1D20" alt="GitHub stars" /></a>
+  <a href="THEMES.md"><img src="https://img.shields.io/badge/Full%20theme%20gallery-%E2%86%97-0B1D20?style=for-the-badge&labelColor=0B1D20" alt="Full theme gallery" /></a>
+  <a href="https://ko-fi.com/oldjobobo"><img src="https://img.shields.io/badge/Support-Ko--fi-0B1D20?style=for-the-badge&labelColor=030E10" alt="Support on Ko-fi" /></a>
 </p>
 
 # OldJobobo
@@ -31,8 +31,8 @@
       </a>
       <p><strong>A Wayland terminal with persistent, daemon-owned shell sessions. Shells keep running when the window closes.</strong><br />Native Wayland windows, tabs, and split panes, with JSON/NDJSON, SSH relay, and MCP interfaces for authorized tools.</p>
       <p>
-        <a href="https://github.com/OldJobobo/splinterm/releases"><img alt="Splinterm release" src="https://img.shields.io/github/v/release/OldJobobo/splinterm?include_prereleases&style=flat-square&labelColor=001123&color=00172E" /></a>
-        <a href="https://github.com/OldJobobo/splinterm/stargazers"><img alt="Splinterm stars" src="https://img.shields.io/github/stars/OldJobobo/splinterm?style=flat-square&labelColor=001123&color=00172E" /></a>
+        <a href="https://github.com/OldJobobo/splinterm/releases"><img alt="Splinterm release" src="https://img.shields.io/github/v/release/OldJobobo/splinterm?include_prereleases&style=flat-square&labelColor=030E10&color=0B1D20" /></a>
+        <a href="https://github.com/OldJobobo/splinterm/stargazers"><img alt="Splinterm stars" src="https://img.shields.io/github/stars/OldJobobo/splinterm?style=flat-square&labelColor=030E10&color=0B1D20" /></a>
         &nbsp; <a href="https://github.com/OldJobobo/splinterm">View repository ↗</a>
       </p>
     </td>
@@ -47,8 +47,8 @@
       </a>
       <p><strong>Manage integrations from the CLI, TUI, or Omarchy Shell panel.</strong><br />Uses Omarchy's color resolver and templates. Integrations are opt-in for new installs; support status is documented per integration.</p>
       <p>
-        <a href="https://github.com/OldJobobo/thpm/releases"><img alt="THPM release" src="https://img.shields.io/github/v/release/OldJobobo/thpm?include_prereleases&style=flat-square&labelColor=001123&color=00172E" /></a>
-        <a href="https://github.com/OldJobobo/thpm/stargazers"><img alt="THPM stars" src="https://img.shields.io/github/stars/OldJobobo/thpm?style=flat-square&labelColor=001123&color=00172E" /></a>
+        <a href="https://github.com/OldJobobo/thpm/releases"><img alt="THPM release" src="https://img.shields.io/github/v/release/OldJobobo/thpm?include_prereleases&style=flat-square&labelColor=030E10&color=0B1D20" /></a>
+        <a href="https://github.com/OldJobobo/thpm/stargazers"><img alt="THPM stars" src="https://img.shields.io/github/stars/OldJobobo/thpm?style=flat-square&labelColor=030E10&color=0B1D20" /></a>
         &nbsp; <a href="https://github.com/OldJobobo/thpm">View repository ↗</a>
       </p>
     </td>
@@ -201,7 +201,7 @@ Thank you to these public Ko-fi supporters:
 DHH · HANCORE · perfekt · Straight Classy · twodogs · SqdnGunny
 
 <p align="right">
-  <a href="https://ko-fi.com/oldjobobo"><img src="https://img.shields.io/badge/Support-Ko--fi-00172E?style=for-the-badge&labelColor=001123" alt="Support on Ko-fi" /></a>
+  <a href="https://ko-fi.com/oldjobobo"><img src="https://img.shields.io/badge/Support-Ko--fi-0B1D20?style=for-the-badge&labelColor=030E10" alt="Support on Ko-fi" /></a>
 </p>
 
 <br />

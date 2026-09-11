@@ -4,25 +4,25 @@
   <style>@media(max-width:600px){.project-name{font-size:96px;transform:translateY(15px)}.project-subtitle{font-size:32px;transform:translateY(24px)}}</style>
   <defs>
     <linearGradient id="surface" x2="1" y2="1">
-      <stop stop-color="#00172e"/>
-      <stop offset="1" stop-color="#001123"/>
+      <stop stop-color="#0b1d20"/>
+      <stop offset="1" stop-color="#030e10"/>
     </linearGradient>
     <linearGradient id="connection" x2="1">
-      <stop stop-color="#faa968" stop-opacity="0.2"/>
-      <stop offset="0.5" stop-color="#faa968"/>
-      <stop offset="1" stop-color="#a3ccc6"/>
+      <stop stop-color="#00c6c2" stop-opacity="0.2"/>
+      <stop offset="0.5" stop-color="#00c6c2"/>
+      <stop offset="1" stop-color="#a9c2c1"/>
     </linearGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#57898a" stroke-opacity="0.045"/>
+      <path d="M40 0H0V40" fill="none" stroke="#42686f" stroke-opacity="0.045"/>
     </pattern>
   </defs>
   <rect width="1120" height="560" rx="12" fill="url(#surface)"/>
   <rect width="1120" height="560" rx="12" fill="url(#grid)"/>
   <g font-family="'DejaVu Sans', Arial, sans-serif">
-    <text class="project-name" x="153" y="78" fill="#f6dcac" font-size="54" font-weight="700" letter-spacing="-2">Splinterm</text>
-    <text class="project-subtitle" x="155" y="113" fill="#8cbfb8" font-size="23">Wayland terminal · Persistent sessions</text>
-    <rect x="888" y="55" width="166" height="38" rx="2" fill="#001123" stroke="#57898a"/>
-    <text x="971" y="81" text-anchor="middle" fill="#faa968" font-family="'DejaVu Sans Mono', monospace" font-size="19">STABLE</text>
+    <text class="project-name" x="153" y="78" fill="#e0f5f2" font-size="54" font-weight="700" letter-spacing="-2">Splinterm</text>
+    <text class="project-subtitle" x="155" y="113" fill="#94b3b5" font-size="23">Wayland terminal · Persistent sessions</text>
+    <rect x="888" y="55" width="166" height="38" rx="2" fill="#030e10" stroke="#42686f"/>
+    <text x="971" y="81" text-anchor="middle" fill="#00c6c2" font-family="'DejaVu Sans Mono', monospace" font-size="19">STABLE</text>
     <!-- Official Splinterm head logo; vector source in splinterm-logo.svg. -->
     <g id="splinterm-app-logo" transform="translate(48 24) scale(0.076555)">
 <defs xmlns="http://www.w3.org/2000/svg" id="splinterm-logo-defs32" />
@@ -85,36 +85,36 @@
     </g>
     <!-- The graphical view is separate from the daemon-owned session below. -->
     <g transform="translate(0 -105)">
-    <rect x="64" y="264" width="640" height="273" rx="12" fill="#000c17" stroke="#57898a" stroke-width="2"/>
-    <path d="M65 311H703" stroke="#57898a" stroke-width="2"/>
-    <circle cx="89" cy="288" r="5" fill="#faa968"/>
-    <text x="108" y="297" fill="#8cbfb8" font-size="23">native window</text>
-    <path d="M454 312V536M455 424H703" stroke="#57898a" stroke-width="2"/>
+    <rect x="64" y="264" width="640" height="273" rx="12" fill="#010506" stroke="#42686f" stroke-width="2"/>
+    <path d="M65 311H703" stroke="#42686f" stroke-width="2"/>
+    <circle cx="89" cy="288" r="5" fill="#00c6c2"/>
+    <text x="108" y="297" fill="#94b3b5" font-size="23">native window</text>
+    <path d="M454 312V536M455 424H703" stroke="#42686f" stroke-width="2"/>
     <g font-family="'DejaVu Sans Mono', monospace" font-size="25">
-      <text x="91" y="358" fill="#faa968">~/projects</text>
-      <text x="91" y="399" fill="#f6dcac">$ cargo build</text>
-      <text x="91" y="450" fill="#8cbfb8">Compiling...</text>
-      <path d="M94 479H338" stroke="#028391" stroke-width="9"/>
-      <path d="M94 479H264" stroke="#faa968" stroke-width="9"/>
-      <text x="481" y="355" fill="#a3ccc6">$ git status</text>
-      <path d="M483 383H595M483 398H646" stroke="#57898a" stroke-width="6"/>
-      <text x="481" y="465" fill="#a3ccc6">$</text>
-      <rect x="512" y="445" width="13" height="25" fill="#faa968"/>
-      <path d="M483 498H591" stroke="#028391" stroke-width="6"/>
+      <text x="91" y="358" fill="#00c6c2">~/projects</text>
+      <text x="91" y="399" fill="#e0f5f2">$ cargo build</text>
+      <text x="91" y="450" fill="#94b3b5">Compiling...</text>
+      <path d="M94 479H338" stroke="#1e4147" stroke-width="9"/>
+      <path d="M94 479H264" stroke="#00c6c2" stroke-width="9"/>
+      <text x="481" y="355" fill="#a9c2c1">$ git status</text>
+      <path d="M483 383H595M483 398H646" stroke="#42686f" stroke-width="6"/>
+      <text x="481" y="465" fill="#a9c2c1">$</text>
+      <rect x="512" y="445" width="13" height="25" fill="#00c6c2"/>
+      <path d="M483 498H591" stroke="#1e4147" stroke-width="6"/>
     </g>
-    <rect x="765" y="285" width="289" height="176" rx="12" fill="#00172e" stroke="#57898a" stroke-width="2" stroke-dasharray="8 7"/>
-    <text x="790" y="325" fill="#8cbfb8" font-size="23">window detached</text>
-    <path d="M794 355L815 374 794 393M828 398H854" fill="none" stroke="#57898a" stroke-width="4"/>
-    <text x="790" y="434" fill="#8cbfb8" font-size="23">session retained</text>
+    <rect x="765" y="285" width="289" height="176" rx="12" fill="#0b1d20" stroke="#42686f" stroke-width="2" stroke-dasharray="8 7"/>
+    <text x="790" y="325" fill="#94b3b5" font-size="23">window detached</text>
+    <path d="M794 355L815 374 794 393M828 398H854" fill="none" stroke="#42686f" stroke-width="4"/>
+    <text x="790" y="434" fill="#94b3b5" font-size="23">session retained</text>
     <path d="M384 538V568H911V461" fill="none" stroke="url(#connection)" stroke-width="4"/>
-    <path d="M640 568V594" stroke="#faa968" stroke-width="4"/>
-    <circle cx="384" cy="568" r="6" fill="#faa968"/>
-    <circle cx="911" cy="568" r="6" fill="#a3ccc6"/>
-    <rect x="64" y="594" width="990" height="58" rx="8" fill="#00172e" stroke="#028391"/>
-    <circle cx="93" cy="623" r="6" fill="#a3ccc6"/>
-    <text x="114" y="632" fill="#a3ccc6" font-family="'DejaVu Sans Mono', monospace" font-size="25">splinterd</text>
-    <text x="308" y="632" fill="#f6dcac" font-size="25">daemon-owned sessions</text>
-    <text x="1019" y="632" text-anchor="end" fill="#a3ccc6" font-size="23">RUNNING</text>
+    <path d="M640 568V594" stroke="#00c6c2" stroke-width="4"/>
+    <circle cx="384" cy="568" r="6" fill="#00c6c2"/>
+    <circle cx="911" cy="568" r="6" fill="#a9c2c1"/>
+    <rect x="64" y="594" width="990" height="58" rx="8" fill="#0b1d20" stroke="#1e4147"/>
+    <circle cx="93" cy="623" r="6" fill="#a9c2c1"/>
+    <text x="114" y="632" fill="#a9c2c1" font-family="'DejaVu Sans Mono', monospace" font-size="25">splinterd</text>
+    <text x="308" y="632" fill="#e0f5f2" font-size="25">daemon-owned sessions</text>
+    <text x="1019" y="632" text-anchor="end" fill="#a9c2c1" font-size="23">RUNNING</text>
     </g>
   </g>
 </svg>
